@@ -4,15 +4,15 @@ translation=Opzioni
 
 [setting.plugin]
 original=Plugin
-translation=Plugin
+translation=Estensione
 
 [setting.builtin-plugins]
 original=Core plugins
-translation=Plugin principali
+translation=Estensioni di base
 
 [setting.plugin-options]
 original=Plugin options
-translation=Opzioni plugin
+translation=Opzioni delle estensioni
 
 [setting.folder-path-example-placeholder]
 original=Example: folder 1/folder 2
@@ -24,11 +24,11 @@ translation=Esempio: cartella/nota
 
 [setting.msg-restart-required]
 original=Changing this option requires a restart to take effect.
-translation=Per cambiare questa impostazione è necessario il riavvio.
+translation=È necessario riavviare l’applicazione per rendere effettiva la modifica.
 
 [setting.editor.name]
 original=Editor
-translation=Editor
+translation=Editor di testo
 
 [setting.editor.section-behavior]
 original=Behavior
@@ -44,7 +44,7 @@ translation=Controllo ortografico
 
 [setting.editor.option-spellcheck-description]
 original=Turn on the spellchecker.
-translation=Attiva il controllo ortografico. Attualmente disponibile solo per l'inglese (Stati Uniti).
+translation=Attiva il controllo ortografico. Attualmente disponibile solo per l’inglese statunitense.
 
 [setting.editor.spellcheck-languages]
 original=Spellcheck languages
@@ -52,43 +52,43 @@ translation=Lingue del controllo ortografico
 
 [setting.editor.spellcheck-languages-description]
 original=Choose the languages for the spellchecker to use.
-translation=Scegli le lingue del controllo ortografico da usare.
+translation=Scegli le lingue da utilizzare per il controllo ortografico.
 
 [setting.editor.spellcheck-languages-mac-description]
 original=The native spellchecker will automatically detect the language being used for you on macOS.
-translation=Il controllo ortografico nativo rileverà automaticamente la lingua da usare su macOS.
+translation=Su macOS, il controllo ortografico di sistema rileverà automaticamente la lingua in uso.
 
 [setting.editor.spellcheck-dict]
 original=Spellcheck dictionary
-translation=Dizionario del controllo ortografico
+translation=Dizionario ortografico
 
 [setting.editor.spellcheck-dict-empty]
 original=The spellcheck dictionary is empty.
-translation=Il dizionario del controllo ortografico è vuoto.
+translation=Il dizionario ortografico è vuoto.
 
 [setting.editor.option-show-inline-title]
 original=Inline title
-translation=Titolo in linea
+translation=Titolo integrato
 
 [setting.editor.option-show-inline-title-description]
 original=Display the filename as an editable title inline with the file contents.
-translation=Mostra il nome del file come titolo modificabile in linea con il contenuto del file.
+translation=Mostra il nome del file come titolo modificabile all’interno del documento.
 
 [setting.editor.option-readable-line-length]
 original=Readable line length
-translation=Migliora leggibilità delle righe
+translation=Larghezza del testo ottimizzata
 
 [setting.editor.option-readable-line-description]
 original=Limit maximum line length. Less content fits onscreen, but long blocks of text are more readable.
-translation=Limita la lunghezza massima delle righe. Mostra meno contenuti sullo schermo ma rende i paragrafi lunghi più leggibili.
+translation=Limita la larghezza delle righe. Mostra meno testo a schermo, ma i blocchi di testo lunghi saranno più leggibili.
 
 [setting.editor.option-strict-line-break]
 original=Strict line breaks
-translation=Non mostrare interruzioni di riga singole
+translation=A capo mantenuti
 
 [setting.editor.option-strict-line-break-description]
 original=Markdown specs ignore single line breaks in reading view. Turn this off to make single line breaks visible.
-translation=In modalità Anteprima, ignora gli a capo singoli seguendo la specifica Markdown. Disattivare questa opzione per mostrare le interruzioni di riga nell'anteprima.
+translation=Le specifiche di Markdown ignorano i ritorni a capo semplici nella modalità di lettura. Disattiva questa opzione per renderli visibili.
 
 [setting.editor.option-properties-in-document]
 original=Properties in document
@@ -96,7 +96,7 @@ translation=Proprietà nel documento
 
 [setting.editor.option-properties-in-document-description]
 original=Choose how properties are displayed at the top of notes. Select “source” to show properties as raw YAML.
-translation=Scegli la modalità di visualizzazione delle proprietà nell'editor. Seleziona "Codice" per visualizzare le proprietà come YAML.
+translation=Scegli come visualizzare le proprietà in cima alle note. Seleziona “Sorgente” per mostrarle in formato YAML puro.
 
 [setting.editor.option-properties-hidden]
 original=Hidden
@@ -108,7 +108,7 @@ translation=Visibili
 
 [setting.editor.option-properties-source]
 original=Source
-translation=Codice
+translation=Sorgente
 
 [setting.editor.option-auto-pair-brackets]
 original=Auto-pair brackets
@@ -116,47 +116,47 @@ translation=Chiusura automatica delle parentesi
 
 [setting.editor.option-auto-pair-brackets-description]
 original=Pair brackets and quotes automatically.
-translation=Chiude le parentesi e le virgolette automaticamente
+translation=Chiude automaticamente le parentesi e le virgolette.
 
 [setting.editor.option-auto-pair-markdown]
 original=Auto-pair Markdown syntax
-translation=Completamento automatico della sintassi Markdown
+translation=Completamento automatico Markdown
 
 [setting.editor.option-auto-pair-markdown-description]
 original=Pair symbols automatically for bold, italic, code, and more.
-translation=Accoppia automaticamente i simboli per il grassetto e il corsivo.
+translation=Chiude automaticamente i simboli per il grassetto, il corsivo, il codice, ecc.
 
 [setting.editor.option-smart-indent-lists]
 original=Smart lists
-translation=Indentazione intelligente delle liste
+translation=Elenchi intelligenti
 
 [setting.editor.option-smart-indent-lists-description]
 original=Automatically set indentation and place list items correctly.
-translation=Gestisce automaticamente l'indentazione e i marcatori delle liste.
+translation=Gestisce automaticamente i rientri e i marcatori degli elenchi.
 
 [setting.editor.option-fold-heading]
 original=Fold heading
-translation=Comprimi intestazioni
+translation=Contrai intestazioni
 
 [setting.editor.option-fold-heading-description]
 original=Lets you fold all content under a heading.
-translation=Permette di comprimere il contenuto all'interno delle intestazioni.
+translation=Permette di contrarre tutto il contenuto sotto un’intestazione.
 
 [setting.editor.option-fold-indent]
 original=Fold indent
-translation=Comprimi indentazioni
+translation=Contrai rientri
 
 [setting.editor.option-fold-indent-description]
 original=Lets you fold part of an indentation, such as lists.
-translation=Permette di comprimere una parte del contenuto con lo stesso livello d'indentazione, come le liste.
+translation=Consente di contrarre una sezione di testo rientrata, come gli elenchi.
 
 [setting.editor.option-default-new-tab-view]
 original=Default view for new tabs
-translation=Visualizzazione predefinita per le nuove schede
+translation=Vista predefinita per le nuove schede
 
 [setting.editor.option-default-new-tab-view-description]
 original=The default view that a new Markdown tab gets opened in.
-translation=La vista predefinita con cui aprire le nuove schede.
+translation=La vista predefinita con cui si apre una nuova scheda Markdown.
 
 [setting.editor.option-default-new-tab-view-editing]
 original=Editing view
@@ -168,11 +168,11 @@ translation=Lettura
 
 [setting.editor.option-open-tab-in-foreground]
 original=Always focus new tabs
-translation=Passa sempre alle nuove schede
+translation=Porta in primo piano le schede nuove
 
 [setting.editor.option-open-tab-in-foreground-description]
 original=When you open a link in a new tab, switch to it immediately.
-translation=Quando apri un collegamento in una nuova scheda, passa subito alla nuova scheda.
+translation=Quando apri un collegamento a una nuova scheda, la apre subito in primo piano.
 
 [setting.editor.option-default-editing-mode]
 original=Default editing mode
@@ -180,7 +180,7 @@ translation=Modalità di modifica predefinita
 
 [setting.editor.option-default-editing-mode-description]
 original=The default editing mode a new tab will start with.
-translation=La modalità di modifica predefinita con cui aprire un nuovo pannello.
+translation=La modalità di modifica predefinita con cui si apre un pannello nuovo.
 
 [setting.editor.option-default-editing-mode-source]
 original=Source mode
@@ -196,87 +196,87 @@ translation=Numeri di riga
 
 [setting.editor.option-show-line-number-description]
 original=Show line numbers in the gutter.
-translation=Mostra il numero delle righe sul margine dell'editor.
+translation=Mostra i numeri di riga a margine.
 
 [setting.editor.option-indentation-guide]
 original=Indentation guides
-translation=Guide di indentazione
+translation=Guide di rientro
 
 [setting.editor.option-indentation-guide-description]
 original=Show vertical relationship lines between list items.
-translation=Mostra linee verticali di collegamento tra gli elenchi come guida visiva.
+translation=Mostra linee verticali di collegamento tra gli elementi di un elenco.
 
 [setting.editor.option-use-tabs]
 original=Indent using tabs
-translation=Utilizza le tabulazioni
+translation=Rientri con tabulazioni
 
 [setting.editor.option-use-tabs-description]
 original=Use tabs to indent by pressing the “Tab” key. Turn this off to indent using 4 spaces.
-translation=Utilizza le tabulazioni per indentare quando viene premuto il tasto "Tab". Disattivare per utilizzare gli spazi.
+translation=Usa le tabulazioni per i rientri premendo il tasto “Tab”. Disattiva questa opzione per usare 4 spazi.
 
 [setting.editor.option-tab-size]
 original=Indent visual width
-translation=Dimensione tabulazione
+translation=Ampiezza della tabulazione
 
 [setting.editor.option-tab-size-description]
 original=Number of spaces a tab character will render as.
-translation=Numero di spazi da usare per la tabulazione.
+translation=Numero di spazi equivalenti a un carattere di tabulazione.
 
 [setting.editor.option-rtl]
 original=Right-to-left (RTL)
-translation=Da destra a sinistra (RTL)
+translation=Scrittura da destra a sinistra (RTL)
 
 [setting.editor.option-rtl-description]
 original=Sets the default text direction of notes to right-to-left.
-translation=Imposta la direzione del testo delle note da destra a sinistra.
+translation=Imposta la direzione predefinita del testo delle note da destra a sinistra.
 
 [setting.editor.option-auto-convert-html]
 original=Convert pasted HTML to Markdown
-translation=Converti automaticamente HTML
+translation=Converti HTML in Markdown
 
 [setting.editor.option-auto-convert-html-description]
 original=Automatically convert HTML to Markdown when pasting and drag-and-drop from web pages. Use Ctrl/Cmd+Shift+V to paste HTML without converting.
-translation=Converte automaticamente HTML in Markdown quando si usa copia/incolla o trascina e rilascia da pagine web. Usare Ctrl/Cmd+Shift+V per incollare senza convertire.
+translation=Converte automaticamente l’HTML in Markdown durante il copia-incolla o il trascinamento da pagine web. Usa Ctrl/Cmd+Maiusc+V per incollare l’HTML senza convertirlo.
 
 [setting.editor.option-vim-key-bindings]
 original=Vim key bindings
-translation=Tasti di scelta rapida Vim
+translation=Scorciatoie da tastiera Vim
 
 [setting.editor.option-vim-key-bindings-description]
 original=Use Vim key bindings when editing.
-translation=Permette di utilizzare la mappatura dei tasti di Vim nell'editor.
+translation=Usa le scorciatoie di Vim durante la modifica del testo.
 
 [setting.editor.option-vim-key-bindings-mobile]
 original=On mobile devices, this setting is per-device and is not synchronized through the config file.
-translation=Sui dispositivi mobili, questa impostazione è associata al dispositivo e non viene sincronizzata con il file di configurazione.
+translation=Sui dispositivi mobili, questa impostazione è specifica del dispositivo e non viene sincronizzata tramite il file di configurazione.
 
 [setting.editor.option-reindex-vault]
 original=Rebuild vault cache
-translation=Ricostruisci cache del vault
+translation=Reindicizza la cache dell’archivio
 
 [setting.editor.option-reindex-vault-description]
 original=Rebuilding the cache could take a few seconds to a few minutes depending on the size of your vault.
-translation=La ricostruzione della cache potrebbe richiedere da pochi secondi a qualche minuto a seconda della dimensione del vault.
+translation=La reindicizzazione della cache potrebbe richiedere da pochi secondi a qualche minuto, a seconda delle dimensioni dell’archivio.
 
 [setting.editor.label-reindex]
 original=Rebuild
-translation=Ricostruisci
+translation=Reindicizza
 
 [setting.editor.label-confirm-enable-vim]
 original=Confirm entering Vim mode
-translation=Attivazione della modalità Vim
+translation=Conferma l’attivazione della modalità Vim
 
 [setting.editor.label-vim-warning]
 original=Vim mode is for efficient text editing but can be quite counter-intuitive. If you're not familiar with Vim, this option might make it look like Obsidian has stopped working.
-translation=La mappatura dei tasti di Vim è efficiente ma, se non si ha familiarità con Vim, può risultare contro-intuitiva. Attivare questa opzione potrebbe far sembrare che Obsidian abbia smesso di funzionare.
+translation=La modalità Vim è pensata per la modifica efficiente dei testi, ma può risultare controintuitiva. Se non si conosce Vim, questa opzione può far sembrare che Obsidian abbia smesso di funzionare.
 
 [setting.editor.label-vim-test]
 original=To verify that you know your way around Vim, please enter the command to quit Vim without saving below:
-translation=Per verificare la tua conoscenza di Vim, inserisci il comando per uscire da Vim senza salvare qui sotto:
+translation=Per dimostrare di saper usare Vim, inserisci di seguito il comando per uscire da Vim senza salvare:
 
 [setting.editor.label-vim-your-answer]
 original=Your answer
-translation=Risposta
+translation=La tua risposta
 
 [setting.editor.placeholder-enter-command]
 original=Enter command...
@@ -284,19 +284,19 @@ translation=Inserisci comando...
 
 [setting.editor.button-confirm-enable-vim]
 original=Let me enable Vim
-translation=Attiva modalità Vim
+translation=Attiva Vim
 
 [setting.editor.msg-vim-mode-enabled]
 original=Command is correct. Vim mode now enabled.
-translation=Il comando è corretto. La modalità Vim è stata attivata.
+translation=Comando corretto. La modalità Vim è ora attiva.
 
 [setting.editor.msg-vim-mode-not-enabled]
 original=Command is incorrect. Vim mode remains disabled to protect you.
-translation=Il comando non è corretto. Per sicurezza, la modalità Vim non è stata attivata.
+translation=Comando errato. La modalità Vim rimane disattivata per sicurezza.
 
 [setting.editor.msg-vim-mode-please-enter-command]
 original=Please enter the command to enable Vim mode
-translation=Inserire il comando per attivare la modalità Vim
+translation=Inserisci il comando per attivare la modalità Vim
 
 [setting.file.name]
 original=Files and links
@@ -304,11 +304,11 @@ translation=File e collegamenti
 
 [setting.file.option-confirm-file-deletion]
 original=Confirm before deleting files
-translation=Conferma prima di eliminare i file
+translation=Chiedi conferma prima di cancellare i file
 
 [setting.file.option-confirm-file-deletion-description]
 original=Avoid accidentally deleting files.
-translation=Evita l'eliminazione accidentale dei file.
+translation=Evita la cancellazione accidentale dei file.
 
 [setting.file.option-trash]
 original=Trash
@@ -316,11 +316,11 @@ translation=Cestino
 
 [setting.file.option-delete-destination]
 original=Deleted files
-translation=File eliminati
+translation=File cancellati
 
 [setting.file.option-delete-destination-description]
 original=What happens to a file after you delete it.
-translation=Indica cosa fare con i file dopo averli eliminati.
+translation=Destinazione dei file cancellati.
 
 [setting.file.option-choice-system-trash]
 original=Move to system trash
@@ -332,15 +332,15 @@ translation=Sposta nel cestino di Obsidian (cartella .trash)
 
 [setting.file.option-choice-permanent-delete]
 original=Permanently delete
-translation=Elimina definitivamente
+translation=Cancella definitivamente
 
 [setting.file.option-delete-unlinked-attachments]
 original=Delete attachments when deleting files
-translation=Elimina gli allegati quando elimini i file
+translation=Cancella gli allegati quando cancelli i file
 
 [setting.file.option-delete-unlinked-attachments-description]
 original=Automatically remove attachments linked to the deleted file if they're not used elsewhere.
-translation=Rimuove automaticamente gli allegati collegati al file eliminato se non vengono usati altrove.
+translation=Rimuove automaticamente gli allegati associati al file cancellato, se non sono in uso altrove.
 
 [setting.file.option-choice-always]
 original=Always
@@ -360,11 +360,11 @@ translation=File predefinito da aprire
 
 [setting.file.option-default-open-action-description]
 original=Choose which file to open when the app starts.
-translation=Scegli quale file aprire all'avvio dell'app.
+translation=Scegli quale file aprire all’avvio dell’applicazione.
 
 [setting.file.option-choice-last-opened]
 original=Last opened
-translation=Ultimo aperto
+translation=Ultima nota aperta
 
 [setting.file.option-choice-new-note]
 original=New note
@@ -376,7 +376,7 @@ translation=File specifico
 
 [setting.file.option-choice-daily-note]
 original=Daily note
-translation=Nota quotidiana
+translation=Nota giornaliera
 
 [setting.file.option-default-open-file-path]
 original=File to open
@@ -384,31 +384,31 @@ translation=File da aprire
 
 [setting.file.option-default-open-file-path-description]
 original=Select a specific file to open by default.
-translation=Seleziona un file specifico da aprire per impostazione predefinita.
+translation=Scegli un file specifico da aprire come predefinito.
 
 [setting.file.option-always-update-links]
 original=Automatically update internal links
-translation=Aggiorna sempre collegamenti interni
+translation=Aggiorna automaticamente i collegamenti interni
 
 [setting.file.option-always-update-links-description]
 original=Turn off to be prompted to update links after renaming a file.
-translation=Indica se aggiornare automaticamente i collegamenti dopo aver rinominato un file.
+translation=Disattiva per richiedere conferma prima di aggiornare i collegamenti dopo aver rinominato un file.
 
 [setting.file.option-new-note-location]
 original=Default location for new notes
-translation=Posizione predefinita delle note
+translation=Posizione predefinita delle nuove note
 
 [setting.file.option-new-note-location-description]
 original=Where newly created notes are placed.
-translation=Indica dove inserire le note appena create. I plugin sovrascriveranno questa impostazione.
+translation=Cartella di destinazione per le note appena create.
 
 [setting.file.option-choice-vault-root]
 original=Vault folder
-translation=Cartella principale del vault
+translation=Cartella principale dell’archivio
 
 [setting.file.option-choice-current-folder]
 original=Same folder as current file
-translation=Stessa cartella del file
+translation=Stessa cartella del file corrente
 
 [setting.file.option-choice-specified-folder]
 original=In the folder specified below
@@ -416,27 +416,27 @@ translation=Cartella personalizzata
 
 [setting.file.option-new-file-folder-path]
 original=Folder to create new notes in
-translation=Cartella personalizzata per le nuove note
+translation=Cartella delle nuove note
 
 [setting.file.option-new-file-folder-path-description]
 original=Newly created notes will appear in this folder.
-translation=Le nuove note verranno inserite nella cartella specificata. I plugin sovrascriveranno questa impostazione.
+translation=Le nuove note verranno inserite in questa cartella.
 
 [setting.file.option-use-wiki-links]
 original=Use [[Wikilinks]]
-translation=Usa [[Wikilink]]
+translation=Usa i [[Wikilink]]
 
 [setting.file.option-use-wiki-links-description]
 original=Auto-generate Wikilinks for [[links]] and ![[images]] instead of Markdown links and images. Disable this option to generate Markdown links instead.
-translation=Crea automaticamente Wikilink per [[collegamenti]] e ![[immagini]] al posto di collegamenti e immagini Markdown. Disabilitare questa opzione per utilizzare il formato Markdown.
+translation=Genera automaticamente i [[collegamenti]] e le ![[immagini]] come Wikilink anziché in Markdown. Disattiva questa opzione per usare il formato Markdown.
 
 [setting.file.option-show-unsupported-files]
 original=Show all file types
-translation=Rileva tutte le estensioni di file
+translation=Mostra tutti i formati dei file
 
 [setting.file.option-show-unsupported-files-description]
 original=Show files with any extension even if Obsidian can't open them natively, so you can link to them and see them in File Explorer and Quick Switcher.
-translation=Mostra i file con qualsiasi estensione anche se Obsidian non può aprirli nativamente, in modo da poterli collegare o vedere in Esplora risorse e Selezione rapida.
+translation=Mostra anche i formati dei file che Obsidian non sa aprire nativamente, in modo da poterli collegare o vedere in Esplora file e Selezione rapida.
 
 [setting.file.option-links]
 original=Links
@@ -448,19 +448,19 @@ translation=Formato dei nuovi collegamenti
 
 [setting.file.option-link-autocompleted-format-description]
 original=What links to insert when auto-generating internal links.
-translation=Formato dei collegamenti da utilizzare quando vengono generati automaticamente i collegamenti interni.
+translation=Formato da utilizzare per i collegamenti interni generati automaticamente.
 
 [setting.file.option-choice-shortest-linktext]
 original=Shortest path when possible
-translation=Percorso più breve
+translation=Percorso più breve se possibile
 
 [setting.file.option-choice-relative-path]
 original=Path from current file
-translation=Percorso relativo al file
+translation=Percorso relativo al file corrente
 
 [setting.file.option-choice-absolute-path]
 original=Path from vault folder
-translation=Percorso assoluto nel vault
+translation=Percorso assoluto dall’archivio
 
 [setting.file.option-new-attachment-location]
 original=Default location for new attachments
@@ -468,23 +468,23 @@ translation=Posizione predefinita dei nuovi allegati
 
 [setting.file.option-new-attachment-location-description]
 original=Where newly added attachments are placed.
-translation=Indica dove inserire gli allegati appena aggiunti.
+translation=Cartella di destinazione per gli allegati appena aggiunti.
 
 [setting.file.option-new-attachment-location-default]
 original=Attachments
-translation=allegati
+translation=Allegati
 
 [setting.file.option-choice-subdirectory]
 original=In subfolder under current folder
-translation=Sottocartella della cartella attuale
+translation=In una sottocartella di quella corrente
 
 [setting.file.option-attachment-folder-path]
 original=Attachment folder path
-translation=Percorso cartella degli allegati
+translation=Percorso alla cartella degli allegati
 
 [setting.file.option-attachment-folder-path-description]
 original=Place newly created attachment files, such as images created via drag-and-drop or audio recordings, in this folder.
-translation=I nuovi file allegati verranno inseriti nella cartella specificata. Comprende le immagini create tramite drag and drop o copia/incolla e le registrazioni audio.
+translation=I nuovi allegati, ad esempio le immagini trascinate o le registrazioni audio, verranno collocati in questa cartella.
 
 [setting.file.option-attachment-subfolder-path]
 original=Subfolder name
@@ -492,7 +492,7 @@ translation=Nome della sottocartella
 
 [setting.file.option-attachment-subfolder-path-description]
 original=If your file is in “vault/folder”, and you set subfolder name to “attachments”, attachments will be saved to “vault/folder/attachments”.
-translation=Se il file si trova in "vault/cartella", e il nome della sottocartella è "allegati", gli allegati verranno salvati in "vault/cartella/allegati".
+translation=Se il file è in “archivio/cartella” e la sottocartella si chiama “allegati”, gli allegati saranno salvati in “archivio/cartella/allegati”.
 
 [setting.file.option-excluded-files]
 original=Excluded files
@@ -500,15 +500,15 @@ translation=File esclusi
 
 [setting.file.option-excluded-files-desc]
 original=Excluded files will be hidden in Search, Graph View, and Unlinked Mentions, less noticeable in Quick Switcher and link suggestions.
-translation=I file esclusi verranno nascosti o saranno meno evidenti in alcuni posti come Selezione rapida, suggerimenti e Vista grafo.
+translation=I file esclusi verranno nascosti da Ricerca, Vista a grafo e Menzioni non collegate, e saranno meno visibili in Selezione rapida e nei suggerimenti.
 
 [setting.file.label-no-excluded-filters-applied]
 original=No excluded filter is applied right now. Add one below.
-translation=Non sono presenti filtri di esclusione. Aggiungerne uno qui sotto.
+translation=Nessun filtro di esclusione attivo. Aggiungerne uno di seguito.
 
 [setting.file.label-excluded-filters-applied]
 original=Files matching the following filters are currently excluded:
-translation=I file che corrispondono ai seguenti filtri sono attualmente esclusi:
+translation=I file corrispondenti ai seguenti filtri sono attualmente esclusi:
 
 [setting.file.label-excluded-filter]
 original=Filter
@@ -520,7 +520,7 @@ translation=Il filtro non può essere vuoto
 
 [setting.file.placeholder-excluded-filter]
 original=Enter path or “/regex/”...
-translation=Inserisci percorso o "/regex/"...
+translation=Inserisci percorso o “/regex/”...
 
 [setting.file.option-uri-callbacks]
 original=Allow URI callbacks
@@ -528,7 +528,7 @@ translation=Abilita callback URI
 
 [setting.file.option-uri-callbacks-desc]
 original=Enable the use of x-callback-url through x-success or x-error when handling Obsidian URIs.
-translation=Abilita l'uso di x-callback-url attraverso x-success o x-error durante la gestione degli URI di Obsidian.
+translation=Abilita l’uso di x-callback-url tramite i parametri x-success o x-error nella gestione dei link Obsidian (URI).
 
 [setting.appearance.name]
 original=Appearance
@@ -536,19 +536,19 @@ translation=Aspetto
 
 [setting.appearance.option-base-theme]
 original=Base color scheme
-translation=Tema di base
+translation=Tema cromatico di base
 
 [setting.appearance.option-base-theme-description]
 original=Choose Obsidian's default color scheme.
-translation=Combinazione di colori predefinita di Obsidian.
+translation=Scegli il tema cromatico predefinito di Obsidian.
 
 [setting.appearance.option-accent-color]
 original=Accent color
-translation=Colore d'accento
+translation=Colore di risalto
 
 [setting.appearance.option-accent-color-description]
 original=Choose the accent color used throughout the app.
-translation=Scegli un colore d'accento da utilizzare nell'app.
+translation=Scegli il colore di risalto da usare in tutta l’applicazione.
 
 [setting.appearance.dark-theme]
 original=Dark
@@ -564,7 +564,7 @@ translation=Adatta al sistema
 
 [setting.appearance.option-font]
 original=Font
-translation=Tipi di carattere
+translation=Carattere
 
 [setting.appearance.option-advanced]
 original=Advanced
@@ -576,67 +576,67 @@ translation=Interfaccia
 
 [setting.appearance.option-interface-font]
 original=Interface font
-translation=Carattere interfaccia
+translation=Carattere dell’interfaccia
 
 [setting.appearance.option-interface-font-description]
 original=Set base font for all of Obsidian.
-translation=Imposta il carattere di base per Obsidian.
+translation=Imposta il carattere di base per l’intera Obsidian.
 
 [setting.appearance.option-zoom-level]
 original=Zoom level
-translation=Livello zoom
+translation=Ingrandimento
 
 [setting.appearance.option-zoom-level-description]
 original=Controls the overall zoom level of the app.
-translation=Livello di zoom generale dell'app.
+translation=Livello di ingrandimento generale dell’applicazione.
 
 [setting.appearance.option-text-font]
 original=Text font
-translation=Carattere testo
+translation=Carattere del testo
 
 [setting.appearance.option-text-font-description]
 original=Set font for editing and reading views.
-translation=Imposta il carattere per la vista Modifica e la vista Lettura.
+translation=Carattere per le viste di modifica e lettura.
 
 [setting.appearance.option-monospace-font]
 original=Monospace font
-translation=Carattere monospazio
+translation=Carattere a spaziatura fissa
 
 [setting.appearance.option-monospace-font-description]
 original=Set font for places like code blocks and frontmatter.
-translation=Imposta il carattere per posti come i blocchi di codice o il frontespizio.
+translation=Carattere per blocchi di codice e proprietà.
 
 [setting.appearance.label-single-font-currently-in-effect]
 original= Currently applied font: 
-translation= Carattere applicato: 
+translation= Carattere attivo: 
 
 [setting.appearance.label-multiple-fonts-currently-in-effect]
 original= The following fonts are currently applied:
-translation= Caratteri applicati:
+translation= Caratteri attivi:
 
 [setting.appearance.option-font-placeholder]
 original=Enter font name...
-translation=Inserisci nome carattere...
+translation=Inserisci il nome del carattere...
 
 [setting.appearance.label-no-custom-font-set]
 original=No custom font is applied right now. Add one below.
-translation=Nessun carattere personalizzato. Aggiungerne uno qui sotto.
+translation=Nessun carattere personalizzato. Aggiungerne uno di seguito.
 
 [setting.appearance.label-font-applied]
 original=The first font from this list that is available on your system will be applied.
-translation=Verrà applicato il primo carattere disponibile sul sistema da questo elenco.
+translation=Verrà applicato il primo carattere dell’elenco disponibile nel sistema.
 
 [setting.appearance.msg-font-not-found]
 original=This font is not detected on your system.
-translation=Carattere non rilevato sul sistema.
+translation=Carattere non rilevato nel sistema.
 
 [setting.appearance.msg-font-found]
 original=This font is detected on your system.
-translation=Carattere rilevato sul sistema.
+translation=Carattere rilevato nel sistema.
 
 [setting.appearance.label-font-name]
 original=Font name
-translation=Nome carattere
+translation=Nome del carattere
 
 [setting.appearance.option-community-themes]
 original=Community themes
@@ -644,11 +644,11 @@ translation=Temi della comunità
 
 [setting.appearance.option-community-themes-description]
 original=Preview and use amazing themes created by the community.
-translation=Visualizza in anteprima e utilizza i temi creati dalla comunità.
+translation=Sfoglia e utilizza i temi creati dagli utenti.
 
 [setting.appearance.button-browse-community-themes]
 original=Browse
-translation=Sfoglia
+translation=Esplora
 
 [setting.appearance.option-font-size]
 original=Font size
@@ -1036,7 +1036,7 @@ translation=ID del segreto non valido. Usa solo lettere minuscole, numeri e trat
 
 [setting.keychain.keychain-empty-state]
 original=No secrets have been added. Secrets are used to store information like API keys and passwords that plugins can use.
-translation=Non è stato aggiunto alcun segreto. I segreti vengono usati per memorizzare informazioni come chiavi API e password utilizzabili dai plugin.
+translation=Non è stato aggiunto alcun segreto. I segreti vengono usati per memorizzare informazioni come chiavi API e password utilizzabili dalle estensioni.
 
 [setting.keychain.label-select-secret]
 original=Select secret
@@ -1392,23 +1392,23 @@ translation=Il codice 2FA non è corretto, ricontrollare l'app di autenticazione
 
 [setting.core-plugin.plugin-list]
 original=Plugin list
-translation=Lista plugin
+translation=Lista delle estensioni
 
 [setting.core-plugin.option-search-plugin]
 original=Search core plugins
-translation=Cerca plugin principali
+translation=Cerca estensioni principali
 
 [setting.core-plugin.option-search-plugin-description]
 original=Filter plugins by name or description.
-translation=Filtra i plugin per nome o descrizione.
+translation=Filtra le estensioni per nome o descrizione.
 
 [setting.core-plugin.placeholder-search-plugin]
 original=Search plugins...
-translation=Cerca plugin...
+translation=Cerca estensione...
 
 [setting.third-party-plugin.name]
 original=Community plugins
-translation=Plugin di terze parti
+translation=Estensioni di terze parti
 
 [setting.third-party-plugin.option-restricted-mode]
 original=Restricted mode
@@ -1416,7 +1416,7 @@ translation=Modalità limitata
 
 [setting.third-party-plugin.option-restricted-mode-description]
 original=Restricted mode is off. Turn on to disable community plugins.
-translation=La modalità limitata non è attiva. Attivala per disabilitare i plugin della comunità.
+translation=La modalità limitata non è attiva. Attivala per disabilitare le estensioni della comunità.
 
 [setting.third-party-plugin.button-turn-on]
 original=Turn on and reload
