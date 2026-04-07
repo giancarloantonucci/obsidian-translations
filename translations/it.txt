@@ -8,7 +8,7 @@ translation=Estensione
 
 [setting.builtin-plugins]
 original=Core plugins
-translation=Estensioni di base
+translation=Estensioni principali
 
 [setting.plugin-options]
 original=Plugin options
@@ -24,7 +24,7 @@ translation=Esempio: cartella/nota
 
 [setting.msg-restart-required]
 original=Changing this option requires a restart to take effect.
-translation=È necessario riavviare l’applicazione per rendere effettiva la modifica.
+translation=Riavvia l’applicazione per applicare la modifica.
 
 [setting.editor.name]
 original=Editor
@@ -56,7 +56,7 @@ translation=Scegli le lingue da utilizzare per il controllo ortografico.
 
 [setting.editor.spellcheck-languages-mac-description]
 original=The native spellchecker will automatically detect the language being used for you on macOS.
-translation=Su macOS, il controllo ortografico di sistema rileverà automaticamente la lingua in uso.
+translation=Su macOS, il controllo ortografico di sistema rileva automaticamente la lingua in uso.
 
 [setting.editor.spellcheck-dict]
 original=Spellcheck dictionary
@@ -76,19 +76,19 @@ translation=Mostra il nome del file come titolo modificabile all’interno del d
 
 [setting.editor.option-readable-line-length]
 original=Readable line length
-translation=Larghezza del testo ottimizzata
+translation=Righe a larghezza limitata
 
 [setting.editor.option-readable-line-description]
 original=Limit maximum line length. Less content fits onscreen, but long blocks of text are more readable.
-translation=Limita la larghezza delle righe. Mostra meno testo a schermo, ma i blocchi di testo lunghi saranno più leggibili.
+translation=Limita la larghezza delle righe. Mostra meno testo a schermo, ma migliora la leggibilità dei paragrafi lunghi.
 
 [setting.editor.option-strict-line-break]
 original=Strict line breaks
-translation=A capo mantenuti
+translation=Ritorni a capo rispettati
 
 [setting.editor.option-strict-line-break-description]
 original=Markdown specs ignore single line breaks in reading view. Turn this off to make single line breaks visible.
-translation=Le specifiche di Markdown ignorano i ritorni a capo semplici nella modalità di lettura. Disattiva questa opzione per renderli visibili.
+translation=Ignora i ritorni a capo semplici nella modalità di lettura, seguendo le specifiche di Markdown. Disattiva questa opzione per visualizzarli.
 
 [setting.editor.option-properties-in-document]
 original=Properties in document
@@ -96,7 +96,7 @@ translation=Proprietà nel documento
 
 [setting.editor.option-properties-in-document-description]
 original=Choose how properties are displayed at the top of notes. Select “source” to show properties as raw YAML.
-translation=Scegli come visualizzare le proprietà in cima alle note. Seleziona “Sorgente” per mostrarle in formato YAML puro.
+translation=Scegli come visualizzare le proprietà all’inizio delle note. Seleziona “Sorgente” per mostrarle in formato YAML puro.
 
 [setting.editor.option-properties-hidden]
 original=Hidden
@@ -124,7 +124,7 @@ translation=Completamento automatico Markdown
 
 [setting.editor.option-auto-pair-markdown-description]
 original=Pair symbols automatically for bold, italic, code, and more.
-translation=Chiude automaticamente i simboli per il grassetto, il corsivo, il codice, ecc.
+translation=Chiude automaticamente i simboli di formattazione del testo (grassetto, corsivo, ecc.).
 
 [setting.editor.option-smart-indent-lists]
 original=Smart lists
@@ -136,27 +136,27 @@ translation=Gestisce automaticamente i rientri e i marcatori degli elenchi.
 
 [setting.editor.option-fold-heading]
 original=Fold heading
-translation=Contrai intestazioni
+translation=Comprimi intestazioni
 
 [setting.editor.option-fold-heading-description]
 original=Lets you fold all content under a heading.
-translation=Permette di contrarre tutto il contenuto sotto un’intestazione.
+translation=Consente di comprimere tutto il contenuto sotto un’intestazione.
 
 [setting.editor.option-fold-indent]
 original=Fold indent
-translation=Contrai rientri
+translation=Comprimi rientri
 
 [setting.editor.option-fold-indent-description]
 original=Lets you fold part of an indentation, such as lists.
-translation=Consente di contrarre una sezione di testo rientrata, come gli elenchi.
+translation=Consente di comprimere una parte di testo rientrata, come gli elenchi.
 
 [setting.editor.option-default-new-tab-view]
 original=Default view for new tabs
-translation=Vista predefinita per le nuove schede
+translation=Vista predefinita per le schede nuove
 
 [setting.editor.option-default-new-tab-view-description]
 original=The default view that a new Markdown tab gets opened in.
-translation=La vista predefinita con cui si apre una nuova scheda Markdown.
+translation=La vista predefinita all’apertura di una nuova scheda Markdown.
 
 [setting.editor.option-default-new-tab-view-editing]
 original=Editing view
@@ -172,7 +172,7 @@ translation=Porta in primo piano le schede nuove
 
 [setting.editor.option-open-tab-in-foreground-description]
 original=When you open a link in a new tab, switch to it immediately.
-translation=Quando apri un collegamento a una nuova scheda, la apre subito in primo piano.
+translation=Quando apri un collegamento in una scheda nuova, portala immediatamente in primo piano.
 
 [setting.editor.option-default-editing-mode]
 original=Default editing mode
@@ -180,11 +180,11 @@ translation=Modalità di modifica predefinita
 
 [setting.editor.option-default-editing-mode-description]
 original=The default editing mode a new tab will start with.
-translation=La modalità di modifica predefinita con cui si apre un pannello nuovo.
+translation=La modalità di modifica predefinita per le schede nuove.
 
 [setting.editor.option-default-editing-mode-source]
 original=Source mode
-translation=Codice sorgente
+translation=Sorgente
 
 [setting.editor.option-default-editing-mode-live-preview]
 original=Live Preview
@@ -224,7 +224,7 @@ translation=Numero di spazi equivalenti a un carattere di tabulazione.
 
 [setting.editor.option-rtl]
 original=Right-to-left (RTL)
-translation=Scrittura da destra a sinistra (RTL)
+translation=Scrittura da destra a sinistra
 
 [setting.editor.option-rtl-description]
 original=Sets the default text direction of notes to right-to-left.
@@ -232,19 +232,19 @@ translation=Imposta la direzione predefinita del testo delle note da destra a si
 
 [setting.editor.option-auto-convert-html]
 original=Convert pasted HTML to Markdown
-translation=Converti HTML in Markdown
+translation=Converti l’HTML incollato in Markdown
 
 [setting.editor.option-auto-convert-html-description]
 original=Automatically convert HTML to Markdown when pasting and drag-and-drop from web pages. Use Ctrl/Cmd+Shift+V to paste HTML without converting.
-translation=Converte automaticamente l’HTML in Markdown durante il copia-incolla o il trascinamento da pagine web. Usa Ctrl/Cmd+Maiusc+V per incollare l’HTML senza convertirlo.
+translation=Converte automaticamente l’HTML in Markdown durante il copia-incolla o il trascinamento da pagine web. Usa Ctrl/Cmd+Maiusc+V per incollarlo senza convertirlo.
 
 [setting.editor.option-vim-key-bindings]
 original=Vim key bindings
-translation=Scorciatoie da tastiera Vim
+translation=Combinazioni di tasti di Vim
 
 [setting.editor.option-vim-key-bindings-description]
 original=Use Vim key bindings when editing.
-translation=Usa le scorciatoie di Vim durante la modifica del testo.
+translation=Usa le combinazioni di tasti di Vim durante la modifica.
 
 [setting.editor.option-vim-key-bindings-mobile]
 original=On mobile devices, this setting is per-device and is not synchronized through the config file.
@@ -268,7 +268,7 @@ translation=Conferma l’attivazione della modalità Vim
 
 [setting.editor.label-vim-warning]
 original=Vim mode is for efficient text editing but can be quite counter-intuitive. If you're not familiar with Vim, this option might make it look like Obsidian has stopped working.
-translation=La modalità Vim è pensata per la modifica efficiente dei testi, ma può risultare controintuitiva. Se non si conosce Vim, questa opzione può far sembrare che Obsidian abbia smesso di funzionare.
+translation=La modalità Vim è pensata per la modifica efficiente dei testi, ma può risultare controintuitiva. Se non si conosce Vim, questa opzione potrebbe far sembrare che Obsidian abbia smesso di funzionare.
 
 [setting.editor.label-vim-test]
 original=To verify that you know your way around Vim, please enter the command to quit Vim without saving below:
@@ -280,7 +280,7 @@ translation=La tua risposta
 
 [setting.editor.placeholder-enter-command]
 original=Enter command...
-translation=Inserisci comando...
+translation=Inserisci il comando...
 
 [setting.editor.button-confirm-enable-vim]
 original=Let me enable Vim
@@ -304,11 +304,11 @@ translation=File e collegamenti
 
 [setting.file.option-confirm-file-deletion]
 original=Confirm before deleting files
-translation=Chiedi conferma prima di cancellare i file
+translation=Chiedi conferma prima di eliminare i file
 
 [setting.file.option-confirm-file-deletion-description]
 original=Avoid accidentally deleting files.
-translation=Evita la cancellazione accidentale dei file.
+translation=Evita l’eliminazione accidentale dei file.
 
 [setting.file.option-trash]
 original=Trash
@@ -316,11 +316,11 @@ translation=Cestino
 
 [setting.file.option-delete-destination]
 original=Deleted files
-translation=File cancellati
+translation=File eliminati
 
 [setting.file.option-delete-destination-description]
 original=What happens to a file after you delete it.
-translation=Destinazione dei file cancellati.
+translation=Destinazione dei file eliminati.
 
 [setting.file.option-choice-system-trash]
 original=Move to system trash
@@ -332,11 +332,11 @@ translation=Sposta nel cestino di Obsidian (cartella .trash)
 
 [setting.file.option-choice-permanent-delete]
 original=Permanently delete
-translation=Cancella definitivamente
+translation=Elimina definitivamente
 
 [setting.file.option-delete-unlinked-attachments]
 original=Delete attachments when deleting files
-translation=Cancella gli allegati quando cancelli i file
+translation=Elimina gli allegati quando cancelli i file
 
 [setting.file.option-delete-unlinked-attachments-description]
 original=Automatically remove attachments linked to the deleted file if they're not used elsewhere.
