@@ -8,7 +8,7 @@ translation=Estensione
 
 [setting.builtin-plugins]
 original=Core plugins
-translation=Estensioni principali
+translation=Estensioni di base
 
 [setting.plugin-options]
 original=Plugin options
@@ -24,11 +24,11 @@ translation=Esempio: cartella/nota
 
 [setting.msg-restart-required]
 original=Changing this option requires a restart to take effect.
-translation=Riavvia l’applicazione per applicare la modifica.
+translation=Riavvia per applicare le modifiche.
 
 [setting.editor.name]
 original=Editor
-translation=Editor di testo
+translation=Editor
 
 [setting.editor.section-behavior]
 original=Behavior
@@ -44,15 +44,15 @@ translation=Controllo ortografico
 
 [setting.editor.option-spellcheck-description]
 original=Turn on the spellchecker.
-translation=Attiva il controllo ortografico. Attualmente disponibile solo per l’inglese statunitense.
+translation=Attiva il controllo ortografico. Al momento supporta solo l’inglese (Stati Uniti).
 
 [setting.editor.spellcheck-languages]
 original=Spellcheck languages
-translation=Lingue del controllo ortografico
+translation=Lingue per il controllo ortografico
 
 [setting.editor.spellcheck-languages-description]
 original=Choose the languages for the spellchecker to use.
-translation=Scegli le lingue da utilizzare per il controllo ortografico.
+translation=Scegli le lingue da usare per il controllo ortografico.
 
 [setting.editor.spellcheck-languages-mac-description]
 original=The native spellchecker will automatically detect the language being used for you on macOS.
@@ -60,15 +60,15 @@ translation=Su macOS, il controllo ortografico di sistema rileva automaticamente
 
 [setting.editor.spellcheck-dict]
 original=Spellcheck dictionary
-translation=Dizionario ortografico
+translation=Dizionario del controllo ortografico
 
 [setting.editor.spellcheck-dict-empty]
 original=The spellcheck dictionary is empty.
-translation=Il dizionario ortografico è vuoto.
+translation=Il dizionario del controllo ortografico è vuoto.
 
 [setting.editor.option-show-inline-title]
 original=Inline title
-translation=Titolo integrato
+translation=Titolo nel documento
 
 [setting.editor.option-show-inline-title-description]
 original=Display the filename as an editable title inline with the file contents.
@@ -76,19 +76,19 @@ translation=Mostra il nome del file come titolo modificabile all’interno del d
 
 [setting.editor.option-readable-line-length]
 original=Readable line length
-translation=Righe a larghezza limitata
+translation=Larghezza delle righe ottimizzata
 
 [setting.editor.option-readable-line-description]
 original=Limit maximum line length. Less content fits onscreen, but long blocks of text are more readable.
-translation=Limita la larghezza delle righe. Mostra meno testo a schermo, ma migliora la leggibilità dei paragrafi lunghi.
+translation=Limita la larghezza massima delle righe. Il testo a schermo sarà ridotto, ma i blocchi lunghi saranno più leggibili.
 
 [setting.editor.option-strict-line-break]
 original=Strict line breaks
-translation=Ritorni a capo rispettati
+translation=Rispetta i ritorni a capo
 
 [setting.editor.option-strict-line-break-description]
 original=Markdown specs ignore single line breaks in reading view. Turn this off to make single line breaks visible.
-translation=Ignora i ritorni a capo semplici nella modalità di lettura, seguendo le specifiche di Markdown. Disattiva questa opzione per visualizzarli.
+translation=Markdown ignora i ritorni a capo semplici in modalità lettura. Disattiva questa opzione per renderli visibili.
 
 [setting.editor.option-properties-in-document]
 original=Properties in document
@@ -96,7 +96,7 @@ translation=Proprietà nel documento
 
 [setting.editor.option-properties-in-document-description]
 original=Choose how properties are displayed at the top of notes. Select “source” to show properties as raw YAML.
-translation=Scegli come visualizzare le proprietà all’inizio delle note. Seleziona “Sorgente” per mostrarle in formato YAML puro.
+translation=Scegli come visualizzare le proprietà all’inizio delle note. Seleziona “Sorgente” per mostrarle in formato YAML non elaborato.
 
 [setting.editor.option-properties-hidden]
 original=Hidden
@@ -112,43 +112,43 @@ translation=Sorgente
 
 [setting.editor.option-auto-pair-brackets]
 original=Auto-pair brackets
-translation=Chiusura automatica delle parentesi
+translation=Parentesi automatiche
 
 [setting.editor.option-auto-pair-brackets-description]
 original=Pair brackets and quotes automatically.
-translation=Chiude automaticamente le parentesi e le virgolette.
+translation=Chiudi automaticamente parentesi e virgolette.
 
 [setting.editor.option-auto-pair-markdown]
 original=Auto-pair Markdown syntax
-translation=Completamento automatico Markdown
+translation=Formattazione Markdown automatica
 
 [setting.editor.option-auto-pair-markdown-description]
 original=Pair symbols automatically for bold, italic, code, and more.
-translation=Chiude automaticamente i simboli di formattazione del testo (grassetto, corsivo, ecc.).
+translation=Chiudi automaticamente i simboli per il grassetto, il corsivo, il codice, ecc.
 
 [setting.editor.option-smart-indent-lists]
 original=Smart lists
-translation=Elenchi intelligenti
+translation=Elenchi automatici
 
 [setting.editor.option-smart-indent-lists-description]
 original=Automatically set indentation and place list items correctly.
-translation=Gestisce automaticamente i rientri e i marcatori degli elenchi.
+translation=Gestisci in automatico i rientri e i marcatori di un elenco.
 
 [setting.editor.option-fold-heading]
 original=Fold heading
-translation=Comprimi intestazioni
+translation=Comprimi intestazione
 
 [setting.editor.option-fold-heading-description]
 original=Lets you fold all content under a heading.
-translation=Consente di comprimere tutto il contenuto sotto un’intestazione.
+translation=Comprimi tutto il contenuto presente sotto un’intestazione.
 
 [setting.editor.option-fold-indent]
 original=Fold indent
-translation=Comprimi rientri
+translation=Comprimi rientro
 
 [setting.editor.option-fold-indent-description]
 original=Lets you fold part of an indentation, such as lists.
-translation=Consente di comprimere una parte di testo rientrata, come gli elenchi.
+translation=Comprimi una parte di un testo rientrato, come un elenco.
 
 [setting.editor.option-default-new-tab-view]
 original=Default view for new tabs
@@ -180,7 +180,7 @@ translation=Modalità di modifica predefinita
 
 [setting.editor.option-default-editing-mode-description]
 original=The default editing mode a new tab will start with.
-translation=La modalità di modifica predefinita per le schede nuove.
+translation=La modalità di modifica predefinita per le nuove schede.
 
 [setting.editor.option-default-editing-mode-source]
 original=Source mode
@@ -304,7 +304,7 @@ translation=File e collegamenti
 
 [setting.file.option-confirm-file-deletion]
 original=Confirm before deleting files
-translation=Chiedi conferma prima di eliminare i file
+translation=Chiedi conferma per l’eliminazione dei file
 
 [setting.file.option-confirm-file-deletion-description]
 original=Avoid accidentally deleting files.
@@ -320,7 +320,7 @@ translation=File eliminati
 
 [setting.file.option-delete-destination-description]
 original=What happens to a file after you delete it.
-translation=Destinazione dei file eliminati.
+translation=Destinazione dei file dopo l'eliminazione.
 
 [setting.file.option-choice-system-trash]
 original=Move to system trash
@@ -336,11 +336,11 @@ translation=Elimina definitivamente
 
 [setting.file.option-delete-unlinked-attachments]
 original=Delete attachments when deleting files
-translation=Elimina gli allegati quando cancelli i file
+translation=Elimina gli allegati all’eliminazione dei file
 
 [setting.file.option-delete-unlinked-attachments-description]
 original=Automatically remove attachments linked to the deleted file if they're not used elsewhere.
-translation=Rimuove automaticamente gli allegati associati al file cancellato, se non sono in uso altrove.
+translation=Rimuovi automaticamente gli allegati associati al file eliminato se non in uso altrove.
 
 [setting.file.option-choice-always]
 original=Always
@@ -384,7 +384,7 @@ translation=File da aprire
 
 [setting.file.option-default-open-file-path-description]
 original=Select a specific file to open by default.
-translation=Scegli un file specifico da aprire come predefinito.
+translation=Scegli un file specifico da aprire all’avvio.
 
 [setting.file.option-always-update-links]
 original=Automatically update internal links
@@ -392,11 +392,11 @@ translation=Aggiorna automaticamente i collegamenti interni
 
 [setting.file.option-always-update-links-description]
 original=Turn off to be prompted to update links after renaming a file.
-translation=Disattiva per richiedere conferma prima di aggiornare i collegamenti dopo aver rinominato un file.
+translation=Disabilita per confermare manualmente l’aggiornamento dei collegamenti dopo aver rinominato un file.
 
 [setting.file.option-new-note-location]
 original=Default location for new notes
-translation=Posizione predefinita delle nuove note
+translation=Posizione predefinita delle note nuove
 
 [setting.file.option-new-note-location-description]
 original=Where newly created notes are placed.
