@@ -276,7 +276,7 @@ translation=Per dimostrare di saper usare Vim, inserisci di seguito il comando p
 
 [setting.editor.label-vim-your-answer]
 original=Your answer
-translation=La tua risposta
+translation=Risposta
 
 [setting.editor.placeholder-enter-command]
 original=Enter command...
@@ -664,7 +664,7 @@ translation=Regolazione rapida
 
 [setting.appearance.option-font-size-action-description]
 original=Adjust the font size using Ctrl + Scroll, or using the trackpad pinch-zoom gesture.
-translation=Regola la dimensione del carattere usando Ctrl + Scorr o il gesto di zoom con le dita sul trackpad.
+translation=Regola la dimensione del carattere usando Ctrl + rotellina del mouse o il gesto di zoom con le dita sul trackpad.
 
 [setting.appearance.option-themes]
 original=Themes
@@ -672,7 +672,7 @@ translation=Temi
 
 [setting.appearance.option-manage-themes-description]
 original=Manage installed themes and browse community themes.
-translation=Gestisci i temi installati ed sfoglia i temi della comunità.
+translation=Gestisci i temi installati e sfoglia i temi della comunità.
 
 [setting.appearance.option-theme-button-manage]
 original=Manage
@@ -840,19 +840,19 @@ translation=Visualizza l’intestazione nella parte superiore di ogni scheda.
 
 [setting.appearance.option-floating-navigation]
 original=Floating navigation
-translation=Navigazione fluttuante
+translation=Menu di navigazione fisso
 
 [setting.appearance.option-floating-navigation-desc]
 original=Navigation buttons float over the content instead of being anchored.
-translation=I pulsanti di navigazione fluttuano sopra il contenuto invece di essere ancorati.
+translation=I pulsanti di navigazione rimangono fissi a schermo invece che vincolati al contenuto.
 
 [setting.appearance.option-sliding-sidebar]
 original=Sliding sidebars
-translation=Barre laterali scorrevoli
+translation=Barre laterali a scorrimento
 
 [setting.appearance.option-sliding-sidebar-desc]
 original=Sidebars slide to the side of the content instead of floating above.
-translation=Le barre laterali scorrono ai lati del contenuto invece di fluttuare sopra di esso.
+translation=Le barre laterali scorrono a lato del contenuto anziché rimanere fisse a schermo.
 
 [setting.appearance.option-auto-full-screen]
 original=Full screen
@@ -860,7 +860,7 @@ translation=Schermo intero
 
 [setting.appearance.option-auto-full-screen-desc]
 original=Automatically hide interface elements while reading.
-translation=Nasconde automaticamente gli elementi dell'interfaccia durante la lettura.
+translation=Nascondi automaticamente gli elementi dell’interfaccia durante la lettura.
 
 [setting.appearance.msg-updates-found]
 original=Found {{count}} theme to update.
@@ -872,15 +872,15 @@ translation={{count}} temi da aggiornare.
 
 [setting.appearance.button-check-for-updates]
 original=Check for updates
-translation=Controlla aggiornamenti
+translation=Cerca aggiornamenti
 
 [setting.appearance.button-view-updates]
 original=View updates
-translation=Mostra aggiornamenti
+translation=Visualizza gli aggiornamenti
 
 [setting.appearance.button-update-all-themes]
 original=Update all
-translation=Aggiorna tutto
+translation=Aggiorna tutti i temi
 
 [setting.appearance.label-current-themes]
 original=Current community themes
@@ -912,11 +912,11 @@ translation={{count}} tasti di scelta rapida.
 
 [setting.hotkeys.option-search-conflict]
 original={{count}} command with conflicts.
-translation={{count}} comando con conflitti.
+translation={{count}} comando in conflitto.
 
 [setting.hotkeys.option-search-conflict_plural]
 original={{count}} commands with conflicts.
-translation={{count}} comandi con conflitti.
+translation={{count}} comandi in conflitto.
 
 [setting.hotkeys.prompt-filter]
 original=Filter...
@@ -924,11 +924,11 @@ translation=Filtra...
 
 [setting.hotkeys.tooltip-delete-hotkey]
 original=Delete hotkey
-translation=Elimina combinazione di tasti
+translation=Elimina il tasto di scelta rapida
 
 [setting.hotkeys.label-waiting-for-hotkey-press]
 original=Press hotkey...
-translation=Premi tasti di scelta rapida...
+translation=Premi i tasti di scelta rapida...
 
 [setting.hotkeys.label-show-all]
 original=All
@@ -944,27 +944,27 @@ translation=Assegnati
 
 [setting.hotkeys.label-show-user-assigned]
 original=Assigned by me
-translation=Assegnati da me
+translation=Personalizzati
 
 [setting.hotkeys.tooltip-restore-default]
 original=Restore default
-translation=Ripristina predefinito
+translation=Ripristina il valore predefinito
 
 [setting.hotkeys.tooltip-customize-command]
 original=Customize this command
-translation=Personalizza comando
+translation=Personalizza il comando
 
 [setting.hotkeys.tooltip-hotkey-single-conflict]
 original=This hotkey conflicts with “{{command}}”
-translation=Questa combinazione è in conflitto con "{{command}}"
+translation=Questo tasto di scelta rapida è in conflitto con "{{command}}"
 
 [setting.hotkeys.tooltip-hotkey-multiple-conflicts]
 original=This hotkey conflicts with {{count}} other commands
-translation=Questa combinazione è in conflitto con {{count}} altri comandi
+translation=Questo tasto di scelta rapida è in conflitto con {{count}} altri comandi
 
 [setting.hotkeys.label-blank-hotkey]
 original=Blank
-translation=Vuoto
+translation=Nessuno
 
 [setting.keychain.name]
 original=Keychain
@@ -972,23 +972,23 @@ translation=Portachiavi
 
 [setting.keychain.secrets]
 original=Secrets
-translation=Segreti
+translation=Credenziali
 
 [setting.keychain.action-add-secret]
 original=Add secret
-translation=Aggiungi segreto
+translation=Aggiungi credenziale
 
 [setting.keychain.action-edit-secret]
 original=Edit secret
-translation=Modifica segreto
+translation=Modifica la credenziale
 
 [setting.keychain.action-show-secret-value]
 original=Show secret
-translation=Mostra segreto
+translation=Mostra la credenziale
 
 [setting.keychain.action-hide-secret-value]
 original=Hide secret
-translation=Nascondi segreto
+translation=Nascondi la credenziale
 
 [setting.keychain.label-secret-id]
 original=ID
@@ -996,59 +996,59 @@ translation=ID
 
 [setting.keychain.label-secret-value]
 original=Secret
-translation=Segreto
+translation=Credenziale
 
 [setting.keychain.placeholder-secret-id]
 original=secret-name
-translation=nome-segreto
+translation=nome-credenziale
 
 [setting.keychain.option-secret-id-description]
 original=Lowercase letters, numbers and dashes only.
-translation=Solo lettere minuscole, numeri e trattini.
+translation=Usa solo lettere minuscole, numeri e trattini.
 
 [setting.keychain.option-secret-value-description]
 original=Enter your secret.
-translation=Inserisci il tuo segreto.
+translation=Inserisci la tua credenziale.
 
 [setting.keychain.msg-never-accessed]
 original=Never accessed
-translation=Mai effettuato l'accesso
+translation=Mai utilizzata
 
 [setting.keychain.msg-error-update-secret]
 original=Failed to update secret.
-translation=Impossibile aggiornare il segreto.
+translation=Impossibile aggiornare la credenziale.
 
 [setting.keychain.msg-error-add-secret]
 original=Failed to add secret.
-translation=Impossibile aggiungere il segreto.
+translation=Impossibile aggiungere la credenziale.
 
 [setting.keychain.msg-error-secret-id-exists]
 original=A secret with this ID already exists.
-translation=Esiste già un segreto con questo ID.
+translation=Esiste già una credenziale con questo ID.
 
 [setting.keychain.msg-error-secret-value-empty]
 original=Secret value cannot be empty.
-translation=Il valore del segreto non può essere vuoto.
+translation=Il valore della credenziale non può essere vuoto.
 
 [setting.keychain.msg-error-secret-id-invalid]
 original=Secret ID is invalid. Use only lowercase letters, numbers and dashes. 64 characters max.
-translation=ID del segreto non valido. Usa solo lettere minuscole, numeri e trattini. Massimo 64 caratteri.
+translation=L'ID della credenziale non è valido. Usa solo lettere minuscole, numeri e trattini. Massimo 64 caratteri.
 
 [setting.keychain.keychain-empty-state]
 original=No secrets have been added. Secrets are used to store information like API keys and passwords that plugins can use.
-translation=Non è stato aggiunto alcun segreto. I segreti vengono usati per memorizzare informazioni come chiavi API e password utilizzabili dalle estensioni.
+translation=Non hai ancora aggiunto alcuna credenziale. Le credenziali vengono usate per memorizzare informazioni come chiavi API e chiavi d’accesso utilizzabili dalle estensioni.
 
 [setting.keychain.label-select-secret]
 original=Select secret
-translation=Seleziona segreto
+translation=Seleziona credenziale
 
 [setting.keychain.placeholder-search-secret]
 original=Find secret...
-translation=Trova segreto...
+translation=Cerca credenziale...
 
 [setting.keychain.button-add-secret]
 original=Add secret...
-translation=Aggiungi segreto...
+translation=Aggiungi credenziale...
 
 [setting.keychain.button-link]
 original=Link...
@@ -1056,11 +1056,11 @@ translation=Collega...
 
 [setting.keychain.msg-secrets-not-encrypted]
 original=Secrets are stored without encryption because no secret store is available on this system.
-translation=I segreti vengono archiviati senza crittografia perché su questo sistema non è disponibile alcun archivio segreti.
+translation=Le credenziali vengono archiviate senza crittografia perché su questo sistema non è disponibile alcun archivio di credenziali.
 
 [setting.keychain.msg-secrets-not-encrypted-short]
 original=Secrets are not encrypted
-translation=I segreti non sono crittografati
+translation=Le credenziali non sono crittografate
 
 [setting.keychain.button-dismiss-warning]
 original=Don't show again
@@ -1072,7 +1072,7 @@ translation=Crittografia non disponibile
 
 [setting.keychain.msg-encryption-provided-by-o-s]
 original=Encryption is provided by your operating system's secret store. Without a secret store, your secrets will be stored without encryption.
-translation=La crittografia è fornita dall'archivio segreti del tuo sistema operativo. Senza un archivio segreti, i tuoi segreti verranno archiviati senza crittografia.
+translation=La crittografia è fornita dall’archivio delle credenziali del tuo sistema operativo. Senza un archivio delle credenziali, le tue credenziali verranno archiviate senza crittografia.
 
 [setting.keychain.msg-linux-secret-stores]
 original=On Linux, supported secret stores include:
@@ -1104,7 +1104,7 @@ translation=Attiva
 
 [setting.about.label-unknown-version]
 original=Unknown
-translation=Sconosciuto
+translation=Sconosciuta
 
 [setting.about.label-version]
 original=Version {{version}}
@@ -1112,19 +1112,19 @@ translation=Versione {{version}}
 
 [setting.about.label-install-version]
 original=Installer version: {{version}}
-translation=Versione dell'installer: {{version}}
+translation=Versione del programma di installazione: {{version}}
 
 [setting.about.label-read-changelog]
 original=Read the changelog.
-translation=Registro delle modifiche.
+translation=Leggi il registro delle modifiche.
 
 [setting.about.label-manual-update-required]
 original=To support the latest features and to receive the latest security patches, Obsidian needs a major installer update. You need to manually download and reinstall Obsidian.
-translation=Per supportare le nuove funzionalità e ricevere le ultime patch di sicurezza, è necessario un importante aggiornamento del programma d'installazione. Scarica e reinstalla manualmente Obsidian.
+translation=Per supportare le nuove funzionalità e ricevere gli ultimi aggiornamenti di sicurezza, è necessario un importante aggiornamento del programma d’installazione. Scarica e reinstalla manualmente Obsidian.
 
 [setting.about.label-new-version-ready]
 original=A new version is ready to be installed. 
-translation=Una nuova versione è pronta per l'installazione. 
+translation=Una nuova versione è pronta per l’installazione. 
 
 [setting.about.label-disabled-updates]
 original=Updates are disabled.
@@ -1136,7 +1136,7 @@ translation=Riavvia
 
 [setting.about.button-check-for-updates]
 original=Check for updates
-translation=Controlla aggiornamenti
+translation=Cerca aggiornamenti
 
 [setting.about.option-auto-update]
 original=Automatic updates
@@ -1144,19 +1144,19 @@ translation=Aggiornamenti automatici
 
 [setting.about.option-auto-update-description]
 original=Turn this off to prevent the app from checking for updates.
-translation=Disattivare per impedire il controllo automatico degli aggiornamenti.
+translation=Disattiva questa opzione per impedire all’applicazione di cercare aggiornamenti.
 
 [setting.about.option-check-slow-startup]
 original=Notify if startup takes longer than expected
-translation=Notifica se l'avvio richiede più tempo del previsto
+translation=Notifica se l’avvio richiede più tempo del previsto
 
 [setting.about.option-check-slow-startup-description]
 original=Diagnose issues with your app by seeing what is causing the app to load slowly.
-translation=Diagnostica i problemi dell'app per vedere cosa causa il caricamento lento..
+translation=Diagnostica i problemi dell’applicazione per vedere cosa rallenta il caricamento.
 
 [setting.about.button-check-startup]
 original=Check now
-translation=Controlla ora
+translation=Verifica ora
 
 [setting.about.option-cli]
 original=Command line interface
@@ -1164,15 +1164,15 @@ translation=Interfaccia a riga di comando
 
 [setting.about.option-cli-description]
 original=Allow interactions with Obsidian from the command line.
-translation=Consente interazioni con Obsidian dalla riga di comando.
+translation=Consente le interazioni con Obsidian dalla riga di comando.
 
 [setting.about.option-register-path]
 original=Set up CLI to work in the terminal
-translation=Configura la CLI per funzionare nel terminale
+translation=Configura la CLI per l’uso nel terminale
 
 [setting.about.option-register-path-description]
 original=Register "obsidian" in PATH to enable accessing the "obsidian" command anywhere from your terminal.
-translation=Registra "obsidian" nel PATH per abilitare l'accesso al comando "obsidian" da qualsiasi posizione nel terminale.
+translation=Registra "obsidian" nel PATH per consentire l‘accesso al comando "obsidian" da qualsiasi posizione nel terminale.
 
 [setting.about.button-register]
 original=Register
