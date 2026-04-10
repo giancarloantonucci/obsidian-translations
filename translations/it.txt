@@ -1176,15 +1176,15 @@ translation=Registra "obsidian" nel PATH per consentire l‘accesso al comando "
 
 [setting.about.button-register]
 original=Register
-translation=Registra
+translation=Registrati
 
 [setting.about.option-get-help]
 original=Help
-translation=Informazioni
+translation=Guida
 
 [setting.about.option-get-help-description]
 original=Learn how to use Obsidian and get help from the community.
-translation=Ulteriori informazioni sull’utilizzo di Obsidian.
+translation=Scopri come usare Obsidian e ricevi assistenza dalla comunità.
 
 [setting.about.button-open]
 original=Open
@@ -1196,15 +1196,15 @@ translation=Lingua
 
 [setting.about.option-language-description]
 original=Change the display language.
-translation=Cambia la lingua utilizzata.
+translation=Cambia la lingua di visualizzazione.
 
 [setting.about.option-insider-build]
 original=Receive early access versions
-translation=Ricevi versioni insider
+translation=Ricevi versioni ad accesso anticipato
 
 [setting.about.option-insider-build-description]
 original=Auto-update to the latest early access version. These versions include new features but may be less stable.
-translation=Aggiorna automaticamente alle versioni insider per provare nuove funzionalità. Attenzione: si tratta di versioni beta che potrebbero essere meno stabili.
+translation=Aggiorna automaticamente all’ultima versione ad accesso anticipato. Queste versioni includono nuove funzionalità, ma potrebbero essere meno stabili.
 
 [setting.about.option-advanced]
 original=Advanced
@@ -1216,15 +1216,15 @@ translation=Accelerazione hardware
 
 [setting.about.option-hw-acceleration-description]
 original=Turns on Hardware Acceleration, which uses your GPU to make Obsidian smoother.
-translation=Attiva l'accelerazione hardware. Utilizza la tua GPU per rendere Obsidian più fluido.
+translation=Attiva l’accelerazione hardware, che utilizza la GPU di sistema per rendere Obsidian più fluido.
 
 [setting.about.option-hw-acceleration-warning]
 original=If you turn this off, app performance will be severely degraded.
-translation=Se si disattiva questa opzione, le prestazioni dell'app saranno notevolmente ridotte.
+translation=Se si disattiva questa opzione, le prestazioni dell’applicazione saranno notevolmente ridotte.
 
 [setting.about.option-config-location]
 original=Override config folder
-translation=Cambia cartella di configurazione
+translation=Cambia la cartella di configurazione
 
 [setting.about.option-config-location-description]
 original=Use a different config folder than the default one. Must start with a dot.
@@ -1232,7 +1232,7 @@ translation=Utilizza una cartella di configurazione diversa da quella predefinit
 
 [setting.about.option-config-location-warning]
 original=Config location must be a valid folder name that starts with a dot.
-translation=Inserire un nome valido per la cartella di configurazione. Il nome deve iniziare con un punto.
+translation=Il percorso di configurazione deve essere un nome di cartella valido che inizi con un punto.
 
 [setting.about.label-license]
 original=License
@@ -1240,7 +1240,7 @@ translation=Licenza
 
 [setting.about.label-your-commercial-license-key]
 original=Your commercial license key is “{{key}}”.
-translation=La chiave di licenza commerciale è "{{key}}".
+translation=La chiave della licenza commerciale è "{{key}}".
 
 [setting.about.label-commercial-license-info]
 original=Registered to “{{company}}” for {{seats}} users. Valid until {{expiry}}.
@@ -1248,7 +1248,7 @@ translation=Registrata a nome di "{{company}}" per {{seats}} utenti. Valida fino
 
 [setting.about.label-validating-commercial-license]
 original=Validating...
-translation=Validazione in corso...
+translation=Verifica in corso...
 
 [setting.about.label-invalid-commercial-license]
 original=License invalid: 
@@ -1268,35 +1268,35 @@ translation=Al momento hai una licenza Catalyst da {{tier}}. Grazie per il suppo
 
 [setting.about.option-catalyst-desc-no-license]
 original=You don't have a Catalyst license. Catalyst is a one-time donation that helps Obsidian remain 100% user-supported and gives you early access to new features.
-translation=Al momento non hai una licenza Catalyst. La licenza Catalyst è una donazione una tantum per supportare lo sviluppo di Obsidian.
+translation=Al momento non hai una licenza Catalyst. La licenza Catalyst è una donazione una tantum per supportare lo sviluppo di Obsidian e ottenere l’accesso anticipato a nuove funzionalità.
 
 [setting.about.label-app]
 original=App
-translation=App
+translation=Applicazione
 
 [setting.about.label-add-own-language]
 original=Learn how to add a new language to Obsidian.
-translation=Scopri come aggiungere la tua lingua a Obsidian.
+translation=Scopri come aggiungere una nuova lingua a Obsidian.
 
 [setting.account.name]
 original=Account
-translation=Account
+translation=Profilo
 
 [setting.account.option-your-account]
 original=Your account
-translation=Il tuo account
+translation=Il tuo profilo
 
 [setting.account.option-your-account-desc]
 original=You're currently signed in as {{name}} ({{email}}).
-translation=Sei collegato come {{name}} ({{email}}).
+translation=Hai effettuato l’accesso come {{name}} ({{email}}).
 
 [setting.account.option-your-account-desc-no-login]
 original=You're not logged in right now. An account is only needed for Obsidian Sync, Obsidian Publish, and early access versions.
-translation=Non sei collegato. L'account è necessario solo per ottenere le build insider, per Obsidian Publish e Obsidian Sync.
+translation=Accesso non effettuato. Il profilo è necessario solo per Obsidian Sync, Obsidian Publish e le versioni ad accesso anticipato.
 
 [setting.account.button-upgrade-catalyst]
 original=Upgrade
-translation=Passa a un piano superiore
+translation=Passa a Catalyst
 
 [setting.account.option-commercial-license]
 original=Commercial license
