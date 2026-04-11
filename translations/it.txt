@@ -80,7 +80,7 @@ translation=Larghezza delle righe ottimizzata
 
 [setting.editor.option-readable-line-description]
 original=Limit maximum line length. Less content fits onscreen, but long blocks of text are more readable.
-translation=Limita la larghezza massima delle righe. Sarà visibile meno testo a schermo, ma i blocchi lunghi saranno più leggibili.
+translation=Limita la larghezza massima delle righe. Sarà visibile meno testo a schermo, ma i blocchi di testo lunghi saranno più leggibili.
 
 [setting.editor.option-strict-line-break]
 original=Strict line breaks
@@ -88,7 +88,7 @@ translation=Ritorni a capo normali
 
 [setting.editor.option-strict-line-break-description]
 original=Markdown specs ignore single line breaks in reading view. Turn this off to make single line breaks visible.
-translation=Markdown ignora i ritorni a capo semplici in modalità lettura. Disattiva questa opzione per renderli visibili.
+translation=Markdown ignora i ritorni a capo semplici nella modalità di lettura. Disattiva questa opzione per renderli visibili.
 
 [setting.editor.option-properties-in-document]
 original=Properties in document
@@ -136,23 +136,23 @@ translation=Gestisci in automatico i rientri e i marcatori di un elenco.
 
 [setting.editor.option-fold-heading]
 original=Fold heading
-translation=Comprimi intestazione
+translation=Compressione delle intestazioni
 
 [setting.editor.option-fold-heading-description]
 original=Lets you fold all content under a heading.
-translation=Comprimi tutto il contenuto presente sotto un’intestazione.
+translation=Consente di comprimere tutto il contenuto presente sotto un’intestazione.
 
 [setting.editor.option-fold-indent]
 original=Fold indent
-translation=Comprimi rientro
+translation=Compressione dei rientri
 
 [setting.editor.option-fold-indent-description]
 original=Lets you fold part of an indentation, such as lists.
-translation=Comprimi una parte di un testo rientrato, come un elenco.
+translation=Consente di comprimere una parte di un testo rientrato, come un elenco.
 
 [setting.editor.option-default-new-tab-view]
 original=Default view for new tabs
-translation=Visualizzazione predefinita delle nuove schede
+translation=Visualizzazione predefinita per le nuove schede
 
 [setting.editor.option-default-new-tab-view-description]
 original=The default view that a new Markdown tab gets opened in.
@@ -172,7 +172,7 @@ translation=Porta sempre in primo piano le nuove schede
 
 [setting.editor.option-open-tab-in-foreground-description]
 original=When you open a link in a new tab, switch to it immediately.
-translation=Quando apri un collegamento in una nuova scheda, passa immediatamente alla nuova scheda.
+translation=Quando apri un collegamento in una nuova scheda, passa immediatamente a essa.
 
 [setting.editor.option-default-editing-mode]
 original=Default editing mode
@@ -236,7 +236,7 @@ translation=Converti l’HTML incollato in Markdown
 
 [setting.editor.option-auto-convert-html-description]
 original=Automatically convert HTML to Markdown when pasting and drag-and-drop from web pages. Use Ctrl/Cmd+Shift+V to paste HTML without converting.
-translation=Converti automaticamente l’HTML in Markdown durante il copia-incolla o il trascinamento da pagine web. Usa Ctrl/Cmd+Maiusc+V per incollarlo senza convertirlo.
+translation=Converti automaticamente l’HTML in Markdown durante il copia-incolla o il trascinamento dalle pagine web. Usa Ctrl/Cmd+Maiusc+V per incollarlo senza convertirlo.
 
 [setting.editor.option-vim-key-bindings]
 original=Vim key bindings
@@ -436,7 +436,7 @@ translation=Mostra tutti i tipi di file
 
 [setting.file.option-show-unsupported-files-description]
 original=Show files with any extension even if Obsidian can't open them natively, so you can link to them and see them in File Explorer and Quick Switcher.
-translation=Mostra anche quei tipi di file che Obsidian non sa aprire nativamente, in modo da poterci creare dei collegamenti e visualizzarli in Esplora file e Selezione rapida.
+translation=Mostra anche quei tipi di file che Obsidian non sa aprire direttamente, in modo da poterci creare dei collegamenti e visualizzarli in Esplora file e Selezione rapida.
 
 [setting.file.option-links]
 original=Links
@@ -588,7 +588,7 @@ translation=Ingrandimento
 
 [setting.appearance.option-zoom-level-description]
 original=Controls the overall zoom level of the app.
-translation=Regola il livello di ingrandimento generale dell’applicazione.
+translation=Regola l’ingrandimento generale dell’applicazione.
 
 [setting.appearance.option-text-font]
 original=Text font
@@ -1008,7 +1008,7 @@ translation=Usa solo lettere minuscole, numeri e trattini.
 
 [setting.keychain.option-secret-value-description]
 original=Enter your secret.
-translation=Inserisci la tua credenziale.
+translation=Inserisci la credenziale.
 
 [setting.keychain.msg-never-accessed]
 original=Never accessed
@@ -1036,7 +1036,7 @@ translation=L'ID della credenziale non è valido. Usa solo lettere minuscole, nu
 
 [setting.keychain.keychain-empty-state]
 original=No secrets have been added. Secrets are used to store information like API keys and passwords that plugins can use.
-translation=Non hai ancora aggiunto alcuna credenziale. Le credenziali vengono usate per memorizzare informazioni come chiavi API e chiavi d’accesso utilizzabili dalle estensioni.
+translation=Non hai ancora aggiunto alcuna credenziale. Le credenziali vengono usate per memorizzare informazioni come le chiavi API e le chiavi d’accesso utilizzabili dalle estensioni.
 
 [setting.keychain.label-select-secret]
 original=Select secret
@@ -1064,19 +1064,19 @@ translation=Le credenziali non sono crittografate
 
 [setting.keychain.button-dismiss-warning]
 original=Don't show again
-translation=Non mostrare più
+translation=Non mostrare più questo avviso
 
 [setting.keychain.label-encryption-not-available]
 original=Encryption not available
-translation=Crittografia non disponibile
+translation=La crittografia non è disponibile
 
 [setting.keychain.msg-encryption-provided-by-o-s]
 original=Encryption is provided by your operating system's secret store. Without a secret store, your secrets will be stored without encryption.
-translation=La crittografia è fornita dall’archivio delle credenziali del tuo sistema operativo. Senza un archivio delle credenziali, le tue credenziali verranno archiviate senza crittografia.
+translation=La crittografia è fornita dall’archivio delle credenziali del tuo sistema operativo. Senza un archivio delle credenziali, le credenziali verranno archiviate senza crittografia.
 
 [setting.keychain.msg-linux-secret-stores]
 original=On Linux, supported secret stores include:
-translation=Su Linux, gli archivi delle credenziali supportati includono:
+translation=Su Linux, gli archivi delle credenziali supportati sono:
 
 [setting.about.name]
 original=General
@@ -1092,11 +1092,11 @@ translation=Chiave di licenza
 
 [setting.about.license-key-placeholder]
 original=Your license key...
-translation=La tua chiave di licenza...
+translation=La chiave di licenza...
 
 [setting.about.label-activate-license]
 original=Activate license
-translation=Attivazione licenza
+translation=Attiva la licenza
 
 [setting.about.button-activate]
 original=Activate
@@ -1144,15 +1144,15 @@ translation=Aggiornamenti automatici
 
 [setting.about.option-auto-update-description]
 original=Turn this off to prevent the app from checking for updates.
-translation=Disattiva questa opzione per impedire all’applicazione di cercare aggiornamenti.
+translation=Disattiva questa opzione per impedire all’applicazione di cercare gli aggiornamenti.
 
 [setting.about.option-check-slow-startup]
 original=Notify if startup takes longer than expected
-translation=Notifica se l’avvio richiede più tempo del previsto
+translation=Avvisa se l’avvio richiede più tempo del previsto
 
 [setting.about.option-check-slow-startup-description]
 original=Diagnose issues with your app by seeing what is causing the app to load slowly.
-translation=Diagnostica i problemi dell’applicazione per vedere cosa rallenta il caricamento.
+translation=Analizza i problemi dell’applicazione per scoprire che cosa ne rallenta il caricamento.
 
 [setting.about.button-check-startup]
 original=Check now
@@ -1164,7 +1164,7 @@ translation=Interfaccia a riga di comando (CLI)
 
 [setting.about.option-cli-description]
 original=Allow interactions with Obsidian from the command line.
-translation=Consente di interagire con Obsidian dalla riga dei comandi.
+translation=Consente di interagire con Obsidian dalla riga di comando.
 
 [setting.about.option-register-path]
 original=Set up CLI to work in the terminal
@@ -1200,7 +1200,7 @@ translation=Cambia la lingua dell’interfaccia.
 
 [setting.about.option-insider-build]
 original=Receive early access versions
-translation=Versione ad accesso anticipato
+translation=Ricevi la versione ad accesso anticipato
 
 [setting.about.option-insider-build-description]
 original=Auto-update to the latest early access version. These versions include new features but may be less stable.
@@ -1264,11 +1264,11 @@ translation=Licenza Catalyst
 
 [setting.about.option-catalyst-desc]
 original=You currently have the {{tier}} Catalyst license. Thanks for your support!
-translation=Licenza Catalyst da {{tier}} attiva. Grazie per il sostegno!
+translation=Licenza Catalyst di livello {{tier}} attiva. Grazie per il sostegno!
 
 [setting.about.option-catalyst-desc-no-license]
 original=You don't have a Catalyst license. Catalyst is a one-time donation that helps Obsidian remain 100% user-supported and gives you early access to new features.
-translation=Nessuna licenza Catalyst attiva. Catalyst è una donazione una tantum per sostenere lo sviluppo di Obsidian e ottenere l’accesso anticipato alle nuove funzionalità.
+translation=Nessuna licenza Catalyst attiva. Catalyst è una donazione una tantum per permettere a Obsidian di rimanere finanziata al 100% dagli utenti e per ottenere l’accesso anticipato alle nuove funzionalità.
 
 [setting.about.label-app]
 original=App
@@ -1304,7 +1304,7 @@ translation=Licenza commerciale
 
 [setting.account.option-commercial-license-desc]
 original=Help keep Obsidian 100% user-supported.
-translation=Aiuta a mantenere Obsidian al 100% supportato dagli utenti.
+translation=Contribuisci a mantenere Obsidian finanziata al 100% dagli utenti.
 
 [setting.account.button-purchase]
 original=Purchase
@@ -1312,7 +1312,7 @@ translation=Acquista
 
 [setting.account.button-log-out]
 original=Log out
-translation=Disconnetti
+translation=Esci
 
 [setting.account.label-log-in]
 original=Log in
@@ -1324,11 +1324,11 @@ translation=Iscriviti
 
 [setting.account.label-email]
 original=Email
-translation=Email
+translation=Posta elettronica
 
 [setting.account.placeholder-email]
 original=Your email...
-translation=Il tuo indirizzo email...
+translation=Indirizzo di posta elettronica...
 
 [setting.account.label-name]
 original=Full name
@@ -1336,15 +1336,15 @@ translation=Nome completo
 
 [setting.account.label-password]
 original=Password
-translation=Password
+translation=Chiave d’accesso
 
 [setting.account.placeholder-password]
 original=Your password...
-translation=La tua password...
+translation=Chiave d’accesso...
 
 [setting.account.label-forgot-password]
 original=Forgot password?
-translation=Password dimenticata?
+translation=Hai dimenticato la chiave d’accesso?
 
 [setting.account.button-login]
 original=Login
@@ -1352,15 +1352,15 @@ translation=Accedi
 
 [setting.account.message-empty-email]
 original=Email cannot be empty.
-translation=L'indirizzo email non può essere vuoto.
+translation=L’indirizzo di posta elettronica non può essere vuoto.
 
 [setting.account.message-invalid-email]
 original=Email is not valid.
-translation=L'indirizzo email non è valido.
+translation=L’indirizzo di posta elettronica non è valido.
 
 [setting.account.message-empty-password]
 original=Password cannot be empty.
-translation=La password non può essere vuota.
+translation=La chiave d’accesso non può essere vuota.
 
 [setting.account.message-login-failed]
 original=Login failed, please double check your email and password.
@@ -1368,11 +1368,11 @@ translation=Accesso non riuscito, verifica i dati e riprova.
 
 [setting.account.message-signup-failed]
 original=Failed to sign up
-translation=Registrazione non riuscita
+translation=Impossibile registrarsi
 
 [setting.account.label-no-account]
 original=Don't have an account? 
-translation=Non hai un account? 
+translation=Non hai un profilo? 
 
 [setting.account.link-sign-up-now]
 original=Sign up now
@@ -1380,23 +1380,23 @@ translation=Iscriviti ora
 
 [setting.account.label-mfa-code]
 original=6-digit 2FA code
-translation=Codice 2FA a 6 cifre
+translation=Codice a 6 cifre per l'autenticazione a due fattori
 
 [setting.account.mfa-wrong-format]
 original=The 2FA authenticator code must be 6 digits.
-translation=Il codice dell'autenticatore 2FA dev'essere di 6 cifre.
+translation=Il codice per l'autenticazione a due fattori deve essere di 6 cifre.
 
 [setting.account.mfa-verification-failed]
 original=2FA code is incorrect, please double check your authenticator app.
-translation=Il codice 2FA non è corretto, ricontrollare l'app di autenticazione.
+translation=Il codice per l'autenticazione a due fattori è errato, verifica l’applicazione di autenticazione.
 
 [setting.core-plugin.plugin-list]
 original=Plugin list
-translation=Lista delle estensioni
+translation=Elenco delle estensioni
 
 [setting.core-plugin.option-search-plugin]
 original=Search core plugins
-translation=Cerca estensioni principali
+translation=Cerca tra le estensioni di base
 
 [setting.core-plugin.option-search-plugin-description]
 original=Filter plugins by name or description.
@@ -1404,11 +1404,11 @@ translation=Filtra le estensioni per nome o descrizione.
 
 [setting.core-plugin.placeholder-search-plugin]
 original=Search plugins...
-translation=Cerca estensione...
+translation=Cerca estensioni...
 
 [setting.third-party-plugin.name]
 original=Community plugins
-translation=Estensioni di terze parti
+translation=Estensioni della comunità
 
 [setting.third-party-plugin.option-restricted-mode]
 original=Restricted mode
@@ -1416,27 +1416,27 @@ translation=Modalità limitata
 
 [setting.third-party-plugin.option-restricted-mode-description]
 original=Restricted mode is off. Turn on to disable community plugins.
-translation=La modalità limitata non è attiva. Attivala per disabilitare le estensioni della comunità.
+translation=La modalità limitata è disattivata. Attivala per disabilitare le estensioni della comunità.
 
 [setting.third-party-plugin.button-turn-on]
 original=Turn on and reload
-translation=Attiva
+translation=Attiva e ricarica
 
 [setting.third-party-plugin.option-automatic-update-check]
 original=Automatically check for plugin updates
-translation=Controlla automaticamente gli aggiornamenti dei plugin
+translation=Controlla automaticamente gli aggiornamenti delle estensioni
 
 [setting.third-party-plugin.option-automatic-update-check-desc]
 original=Periodically check for plugin updates.
-translation=Controlla periodicamente la disponibilità di aggiornamenti dei plugin.
+translation=Controlla periodicamente gli aggiornamenti delle estensioni.
 
 [setting.third-party-plugin.option-browse-community-plugins]
 original=Community plugins
-translation=Plugin della comunità
+translation=Estensioni della comunità
 
 [setting.third-party-plugin.option-browse-community-plugins-description]
 original=Browse and install community plugins made by our amazing community.
-translation=Sfoglia e installa plugin di terze parti creati dalla nostra straordinaria comunità.
+translation=Sfoglia e installa le estensioni create dalla comunità.
 
 [setting.third-party-plugin.button-browse]
 original=Browse
@@ -1448,15 +1448,15 @@ translation=Esci dalla modalità limitata
 
 [setting.third-party-plugin.label-exit-restricted-mode-description-1]
 original=Community plugins, like any other software you install, could potentially cause data integrity and security issues.
-translation=I plugin della comunità, come ogni altro software installato, potrebbero causare problemi di integrità e sicurezza dei dati.
+translation=Le estensioni della comunità, come qualsiasi altro programma installato, potrebbero causare problemi di integrità e sicurezza dei dati.
 
 [setting.third-party-plugin.label-exit-restricted-mode-description-2]
 original=Plugin security is important to us. Here's what we do:
-translation=La sicurezza dei plugin è importante per noi. Ecco cosa facciamo:
+translation=La sicurezza delle estensioni è una priorità. Ecco le nostre procedure di controllo:
 
 [setting.third-party-plugin.label-exit-restricted-mode-description-3]
 original=Despite our efforts, there is still a small chance that a community plugin might misbehave.
-translation=Nonostante i nostri sforzi, c'è sempre la possibilità che un plugin della comunità possa essere dannoso.
+translation=Nonostante i nostri controlli, esiste comunque la possibilità che un’estensione della comunità si comporti in modo anomalo.
 
 [setting.third-party-plugin.label-code-review]
 original=Initial code review
@@ -1464,7 +1464,7 @@ translation=Revisione iniziale del codice
 
 [setting.third-party-plugin.label-code-review-desc]
 original=Plugins in the official community directory undergo an initial code review by our team before they are listed.
-translation=I plugin vengono sottoposti a una revisione del codice da parte del nostro team prima di essere mostrati nello store.
+translation=Prima della pubblicazione, il nostro gruppo di lavoro sottopone le estensioni del catalogo ufficiale a una revisione iniziale del codice.
 
 [setting.third-party-plugin.label-open-source]
 original=Open source
@@ -1472,7 +1472,7 @@ translation=Open source
 
 [setting.third-party-plugin.label-open-source-desc]
 original=Most plugins are open source on GitHub, so you can inspect the code yourself.
-translation=La maggior parte dei plugin sono open source su GitHub, quindi possono essere personalmente controllati.
+translation=La maggior parte delle estensioni è a codice aperto su GitHub, quindi puoi ispezionarne direttamente il codice.
 
 [setting.third-party-plugin.label-peer-audit]
 original=Peer audit
@@ -1480,7 +1480,7 @@ translation=Revisione tra pari
 
 [setting.third-party-plugin.label-peer-audit-desc]
 original=We have a large community of developers who watch out for each other.
-translation=Abbiamo una vasta comunità di sviluppatori che controllano il lavoro degli altri.
+translation=Possiamo contare su una vasta comunità di sviluppatori che collabora al controllo del codice.
 
 [setting.third-party-plugin.label-report-mechanism]
 original=Report mechanism
@@ -1488,55 +1488,55 @@ translation=Meccanismo di segnalazione
 
 [setting.third-party-plugin.label-report-mechanism-desc]
 original=We follow up and remove faulty plugins upon user report.
-translation=Controlliamo e rimuoviamo i plugin problematici su segnalazione dell'utente.
+translation=Controlliamo e rimuoviamo le estensioni malfunzionanti su segnalazione degli utenti.
 
 [setting.third-party-plugin.label-exit-restricted-mode-disable-confirmation]
 original=Would you like to exit Restricted Mode to enable community plugins? We strongly recommend making backups of your data before doing so.
-translation=Uscire dalla modalità limitata per abilitare i plugin della comunità? Consigliamo vivamente di eseguire un backup dei dati prima di procedere.
+translation=Vuoi uscire dalla modalità limitata per attivare le estensioni della comunità? Ti consigliamo vivamente di creare una copia dei dati prima di procedere.
 
 [setting.third-party-plugin.label-learn-more]
 original=Learn more about plugin security
-translation=Ulteriori informazioni sulla sicurezza dei plugin
+translation=Ulteriori informazioni sulla sicurezza delle estensioni
 
 [setting.third-party-plugin.button-turn-on-community-plugins]
 original=Turn on community plugins
-translation=Attiva i plugin della comunità
+translation=Attiva le estensioni della comunità
 
 [setting.third-party-plugin.label-trust-author]
 original=Do you trust the author of this vault?
-translation=Considerare attendibili gli autori di questo vault?
+translation=Ti fidi dell’autore di questo archivio?
 
 [setting.third-party-plugin.label-trust-author-description-1]
 original=You're opening this vault for the first time, and it comes with some plugins.
-translation=Stai aprendo per la prima volta questo vault che contiene alcuni plugin.
+translation=Stai aprendo questo archivio per la prima volta e contiene alcune estensioni.
 
 [setting.third-party-plugin.label-trust-author-description-2]
 original=If you obtained this vault from someone else, please note that plugins of unknown origin might pose security risks.
-translation=Se il vault è stato ottenuto da terzi, tenere presente che i plugin di origine sconosciuta possono comportare rischi per la sicurezza.
+translation=Se hai ricevuto questo archivio da altre persone, tieni presente che le estensioni di origine sconosciuta possono comportare rischi per la sicurezza.
 
 [setting.third-party-plugin.label-trust-author-description-3]
 original=If you do not fully trust the author of this vault, we recommend staying in Restricted Mode, so the plugins in this vault do not run.
-translation=Se non è possibile fidarsi completamente dell'autore di questo vault, è consigliabile restare in modalità limitata, in maniera tale che i plugin di questo vault non vengano eseguiti.
+translation=Se non ti fidi completamente dell’autore di questo archivio, ti consigliamo di restare in modalità limitata per impedire l’esecuzione delle estensioni.
 
 [setting.third-party-plugin.button-enable-plugins]
 original=Trust author and enable plugins
-translation=Mi fido degli autori, abilita i plugin
+translation=Fidati dell’autore e attiva le estensioni
 
 [setting.third-party-plugin.button-dont-trust-author]
 original=Browse vault in Restricted Mode
-translation=Esplora il vault in modalità limitata
+translation=Esplora l’archivio in modalità limitata
 
 [setting.third-party-plugin.placeholder-community-plugins]
 original=Search community plugins...
-translation=Cerca plugin della comunità...
+translation=Cerca tra le estensioni della comunità...
 
 [setting.third-party-plugin.msg-failed-load-plugins]
 original=Failed to load community plugins.
-translation=Impossibile caricare i plugin della comunità.
+translation=Impossibile caricare le estensioni della comunità.
 
 [setting.third-party-plugin.label-installed]
 original=Installed
-translation=Installato
+translation=Installate
 
 [setting.third-party-plugin.button-install]
 original=Install
@@ -1544,15 +1544,15 @@ translation=Installa
 
 [setting.third-party-plugin.button-enable]
 original=Enable
-translation=Abilita
+translation=Attiva
 
 [setting.third-party-plugin.button-disable]
 original=Disable
-translation=Disabilita
+translation=Disattiva
 
 [setting.third-party-plugin.button-copy-share-link]
 original=Copy share link
-translation=Copia link di condivisione
+translation=Copia l’indirizzo di condivisione
 
 [setting.third-party-plugin.button-donate]
 original=Donate
@@ -1560,7 +1560,7 @@ translation=Dona
 
 [setting.third-party-plugin.label-no-results-found]
 original=No results found.
-translation=nessun risultato trovato.
+translation=Nessun risultato trovato.
 
 [setting.third-party-plugin.label-no-recent-files-found]
 original=No recent files found. Type to search...
@@ -1568,7 +1568,7 @@ translation=Nessun file recente trovato. Digita per cercare...
 
 [setting.third-party-plugin.msg-failed-to-load-manifest]
 original=Failed to load plugin manifest.
-translation=Impossibile caricare il manifesto del plug-in.
+translation=Impossibile caricare il manifesto (il file dei metadati) dell’estensione.
 
 [setting.third-party-plugin.label-version]
 original=Version: {{version}}
@@ -1576,7 +1576,7 @@ translation=Versione: {{version}}
 
 [setting.third-party-plugin.label-currently-installed-version]
 original= (currently installed: {{version}})
-translation= (attualmente installata: {{version}})
+translation= (versione installata: {{version}})
 
 [setting.third-party-plugin.label-by-author]
 original=By 
@@ -1596,7 +1596,7 @@ translation=Visualizza ultimo aggiornamento
 
 [setting.third-party-plugin.label-unsupported]
 original=This plugin does not support your device.
-translation=Questo plugin non supporta il tuo dispositivo.
+translation=Questa estensione non è compatibile con il dispositivo.
 
 [setting.third-party-plugin.button-update]
 original=Update
@@ -1604,39 +1604,39 @@ translation=Aggiorna
 
 [setting.third-party-plugin.label-no-readme]
 original=This plugin did not provide a README file.
-translation=Questo plugin non ha fornito un file README.
+translation=File README non disponibile per questa estensione.
 
 [setting.third-party-plugin.msg-installing-plugin]
 original=Installing plugin “{{name}}”...
-translation=Installazione del plugin "{{name}}"...
+translation=Installazione dell’estensione “{{name}}” in corso...
 
 [setting.third-party-plugin.msg-failed-to-install-plugin]
 original=Failed to install plugin “{{name}}”.
-translation=Impossibile installare il plugin "{{name}}".
+translation=Impossibile installare l’estensione “{{name}}”.
 
 [setting.third-party-plugin.msg-successfully-installed-plugin]
 original=Successfully installed plugin “{{name}}”.
-translation=Plugin "{{name}}" installato con successo.
+translation=Estensione “{{name}}” installata.
 
 [setting.third-party-plugin.msg-failed-to-uninstall-plugin]
 original=Failed to uninstall plugin “{{id}}”.
-translation=Impossibile disinstallare il plugin “{{id}}”.
+translation=Impossibile disinstallare l’estensione “{{id}}”.
 
 [setting.third-party-plugin.msg-failed-to-disable-plugin]
 original=Failed to disable plugin “{{id}}”.
-translation=Impossibile disabilitare il plugin “{{id}}”.
+translation=Impossibile disattivare l’estensione “{{id}}”.
 
 [setting.third-party-plugin.label-installed-plugins]
 original=Installed plugins
-translation=Plugin installati
+translation=Estensioni installate
 
 [setting.third-party-plugin.button-reload-plugins]
 original=Reload plugins
-translation=Ricarica plugin
+translation=Ricarica le estensioni
 
 [setting.third-party-plugin.msg-reloaded-third-party-plugins]
 original=Reloaded third-party plugins.
-translation=Plugin di terze parti ricaricati.
+translation=Estensioni della comunità ricaricate.
 
 [setting.third-party-plugin.label-uninstall]
 original=Uninstall
@@ -1644,39 +1644,39 @@ translation=Disinstalla
 
 [setting.third-party-plugin.label-uninstall-plugin]
 original=Uninstall plugin
-translation=Disinstallazione plugin
+translation=Disinstalla l’estensione
 
 [setting.third-party-plugin.label-uninstall-plugin-confirmation]
 original=Are you sure you want to uninstall this plugin? This will delete the folder of the plugin.
-translation=Disinstallare questo plugin? La cartella del plugin verrà cancellata.
+translation=Disinstallare questa estensione? La sua cartella verrà eliminata.
 
 [setting.third-party-plugin.button-open-plugins-folder]
 original=Open plugins folder
-translation=Apri cartella dei plugin
+translation=Apri la cartella delle estensioni
 
 [setting.third-party-plugin.button-check-for-updates]
 original=Check for updates
-translation=Controlla aggiornamenti
+translation=Cerca aggiornamenti
 
 [setting.third-party-plugin.button-update-all-plugins]
 original=Update all
-translation=Aggiorna tutti
+translation=Aggiorna tutte
 
 [setting.third-party-plugin.label-current-plugins]
 original=Current plugins
-translation=Plugin installati
+translation=Estensioni installate
 
 [setting.third-party-plugin.msg-checking-for-updates]
 original=Checking for updates...
-translation=Controllo aggiornamenti in corso...
+translation=Ricerca aggiornamenti in corso...
 
 [setting.third-party-plugin.label-currently-installed]
 original=You currently have {{count}} plugin installed.
-translation={{count}} plugin attualmente installato.
+translation=Hai {{count}} estensione installata.
 
 [setting.third-party-plugin.label-currently-installed_plural]
 original=You currently have {{count}} plugins installed.
-translation={{count}} plugin attualmente installati.
+translation=Hai {{count}} estensioni installate.
 
 [setting.third-party-plugin.msg-no-updates-found]
 original=No plugin updates found.
@@ -1684,11 +1684,11 @@ translation=Nessun aggiornamento trovato.
 
 [setting.third-party-plugin.msg-updates-found]
 original=Found {{count}} plugin to update.
-translation={{count}} plugin da aggiornare.
+translation={{count}} estensione da aggiornare.
 
 [setting.third-party-plugin.msg-updates-found_plural]
 original=Found {{count}} plugins to update.
-translation={{count}} plugin da aggiornare.
+translation={{count}} estensioni da aggiornare.
 
 [setting.third-party-plugin.msg-update-plugin]
 original=Update to version {{version}}
@@ -1696,19 +1696,19 @@ translation=Aggiorna alla versione {{version}}
 
 [setting.third-party-plugin.option-search-installed-plugin]
 original=Search installed plugins
-translation=Cerca plugin installato
+translation=Cerca tra le estensioni installate
 
 [setting.third-party-plugin.option-search-installed-plugin-description]
 original=Filter installed plugins by name or description.
-translation=Filtra i plugin installati per nome o descrizione.
+translation=Filtra le estensioni installate per nome o descrizione.
 
 [setting.third-party-plugin.placeholder-search-installed-plugin]
 original=Search installed plugins...
-translation=Cerca plugin installato...
+translation=Cerca tra le estensioni installate...
 
 [setting.third-party-plugin.show-installed-only]
 original=Show installed only
-translation=Mostra solo installati
+translation=Mostra solo le estensioni installate
 
 [setting.third-party-plugin.label-donate-modal-title]
 original=Donate to support {{name}}
@@ -1716,35 +1716,35 @@ translation=Dona per sostenere {{name}}
 
 [setting.third-party-plugin.label-donate-modal-text1]
 original=Plugin developers are community volunteers who make amazing things out of passion. If you find this plugin useful, please consider funding its development.
-translation=Gli sviluppatori di plugin sono volontari che creano tante cose incredibili per passione. Se trovi utile questo plugin, considera di finanziarne lo sviluppo.
+translation=Gli sviluppatori delle estensioni sono volontari della comunità che creano strumenti straordinari per passione. Se ritieni utile questa estensione, valuta di finanziarne lo sviluppo.
 
 [setting.third-party-plugin.label-donate-modal-text2]
 original=100% of your contribution will go to the plugin developer; Obsidian does not take a cut. The funding platform they choose might charge a fee.
-translation=Il 100% del contributo andrà allo sviluppatore del plugin; Obsidian non trattiene alcuna percentuale. La piattaforma che gestisce il pagamento potrebbe addebitare una commissione.
+translation=Il 100% del contributo andrà allo sviluppatore dell'estensione; Obsidian non trattiene alcuna percentuale. La piattaforma di pagamento scelta potrebbe applicare una commissione.
 
 [setting.third-party-plugin.label-donate-modal-text3]
 original=Thanks for your generous support!
-translation=Grazie per il tuo generoso supporto!
+translation=Grazie per il generoso sostegno!
 
 [setting.third-party-plugin.label-support-this-plugin]
 original=Support this plugin:
-translation=Supporta questo plugin:
+translation=Sostieni questa estensione:
 
 [setting.third-party-plugin.label-search-summary]
 original=Showing {{pluginCount}}
-translation=Visualizzazione di {{pluginCount}}:
+translation={{pluginCount}} estensioni
 
 [setting.third-party-plugin.label-by-popularity]
 original=Most downloaded
-translation=I più scaricati
+translation=Le più scaricate
 
 [setting.third-party-plugin.label-by-released]
 original=Recently released
-translation=Pubblicati di recente
+translation=Pubblicate di recente
 
 [setting.third-party-plugin.label-by-updated]
 original=Recently updated
-translation=Aggiornati di recente
+translation=Aggiornate di recente
 
 [setting.third-party-plugin.label-alphabetical]
 original=Alphabetical
@@ -1752,19 +1752,19 @@ translation=Ordine alfabetico
 
 [setting.third-party-plugin.label-last-updated]
 original=Updated {{time}}
-translation=Aggiornato il {{time}}
+translation=Ultimo aggiornamento: {{time}}
 
 [setting.mobile-toolbar.name]
 original=Toolbar
-translation=Strumenti mobile
+translation=Barra degli strumenti
 
 [setting.mobile-toolbar.option-configure-quick-action]
 original=Configure mobile Quick Action
-translation=Configura azione rapida mobile
+translation=Configura l'azione rapida per dispositivi mobili
 
 [setting.mobile-toolbar.option-configure-quick-action-description]
 original=Configure which command to trigger when pulling down from the top. The current command is set to “{{command}}”.
-translation=Consente di configurare quale comando attivare quando si trascina dall'alto verso il basso. Il comando attuale è impostato su "{{command}}".
+translation=Scegli quale comando attivare trascinando lo schermo verso il basso. Comando attuale: "{{command}}".
 
 [setting.mobile-toolbar.msg-missing-quick-action]
 original=Action not configured
@@ -1776,27 +1776,27 @@ translation=Configura
 
 [setting.mobile-toolbar.placeholder-select-quick-action]
 original=Select Quick Action...
-translation=Seleziona azione rapida...
+translation=Seleziona un'azione rapida...
 
 [setting.mobile-toolbar.quick-action-disabled]
 original=None
-translation=Nessuno
+translation=Nessuna
 
 [setting.mobile-toolbar.manage-toolbar-options]
 original=Manage toolbar options
-translation=Gestisci opzioni barra degli strumenti
+translation=Gestisci la barra degli strumenti
 
 [setting.mobile-toolbar.option-internal-link]
 original=Add internal link
-translation=Aggiungi collegamento interno
+translation=Inserisci un collegamento interno
 
 [setting.mobile-toolbar.option-internal-embed]
 original=Add embed
-translation=Incorpora
+translation=Inserisci un file incorporato
 
 [setting.mobile-toolbar.option-tag]
 original=Add tag
-translation=Aggiungi etichetta
+translation=Inserisci un’etichetta
 
 [setting.mobile-toolbar.option-heading]
 original=Toggle heading
