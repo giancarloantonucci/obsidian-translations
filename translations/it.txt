@@ -44,7 +44,7 @@ translation=Controllo ortografico
 
 [setting.editor.option-spellcheck-description]
 original=Turn on the spellchecker.
-translation=Attiva il controllo ortografico. Al momento supporta solo l’inglese (Stati Uniti).
+translation=Attiva il controllo ortografico. Al momento solo per l’inglese (Stati Uniti).
 
 [setting.editor.spellcheck-languages]
 original=Spellcheck languages
@@ -52,7 +52,7 @@ translation=Lingue del controllo ortografico
 
 [setting.editor.spellcheck-languages-description]
 original=Choose the languages for the spellchecker to use.
-translation=Scegli le lingue da usare per il controllo ortografico.
+translation=Scegli le lingue per il controllo ortografico.
 
 [setting.editor.spellcheck-languages-mac-description]
 original=The native spellchecker will automatically detect the language being used for you on macOS.
@@ -60,11 +60,11 @@ translation=Su macOS, il controllo ortografico di sistema rileva automaticamente
 
 [setting.editor.spellcheck-dict]
 original=Spellcheck dictionary
-translation=Dizionario del controllo ortografico
+translation=Dizionario ortografico
 
 [setting.editor.spellcheck-dict-empty]
 original=The spellcheck dictionary is empty.
-translation=Il dizionario del controllo ortografico è vuoto.
+translation=Il dizionario ortografico è vuoto.
 
 [setting.editor.option-show-inline-title]
 original=Inline title
@@ -72,7 +72,7 @@ translation=Titolo nel documento
 
 [setting.editor.option-show-inline-title-description]
 original=Display the filename as an editable title inline with the file contents.
-translation=Mostra il nome del file come titolo modificabile all’interno del documento.
+translation=Mostra il nome del file come titolo modificabile nel documento.
 
 [setting.editor.option-readable-line-length]
 original=Readable line length
@@ -80,7 +80,7 @@ translation=Larghezza delle righe ottimizzata
 
 [setting.editor.option-readable-line-description]
 original=Limit maximum line length. Less content fits onscreen, but long blocks of text are more readable.
-translation=Limita la larghezza massima delle righe. Sarà visibile meno testo a schermo, ma i blocchi di testo lunghi saranno più leggibili.
+translation=Limita la larghezza massima delle righe. Riduce il testo a schermo, ma rende i blocchi di testo lunghi più leggibili.
 
 [setting.editor.option-strict-line-break]
 original=Strict line breaks
@@ -88,7 +88,7 @@ translation=Ritorni a capo normali
 
 [setting.editor.option-strict-line-break-description]
 original=Markdown specs ignore single line breaks in reading view. Turn this off to make single line breaks visible.
-translation=Markdown ignora i ritorni a capo semplici nella modalità di lettura. Disattiva questa opzione per renderli visibili.
+translation=In modalità lettura, Markdown ignora i ritorni a capo semplici. Disattiva per renderli visibili.
 
 [setting.editor.option-properties-in-document]
 original=Properties in document
@@ -96,7 +96,7 @@ translation=Proprietà nel documento
 
 [setting.editor.option-properties-in-document-description]
 original=Choose how properties are displayed at the top of notes. Select “source” to show properties as raw YAML.
-translation=Scegli come visualizzare le proprietà all’inizio delle note. Seleziona “Sorgente” per mostrarle in formato YAML non elaborato.
+translation=Scegli come visualizzare le proprietà in cima alle note. Seleziona “Sorgente” per mostrarle in formato YAML non elaborato.
 
 [setting.editor.option-properties-hidden]
 original=Hidden
@@ -124,7 +124,7 @@ translation=Formattazione Markdown automatica
 
 [setting.editor.option-auto-pair-markdown-description]
 original=Pair symbols automatically for bold, italic, code, and more.
-translation=Chiudi automaticamente i simboli per il grassetto, il corsivo, il codice, ecc.
+translation=Chiudi automaticamente i simboli del grassetto, del corsivo, del formato codice, ecc.
 
 [setting.editor.option-smart-indent-lists]
 original=Smart lists
@@ -132,11 +132,11 @@ translation=Elenchi automatici
 
 [setting.editor.option-smart-indent-lists-description]
 original=Automatically set indentation and place list items correctly.
-translation=Gestisci in automatico i rientri e i marcatori di un elenco.
+translation=Gestisci automaticamente il rientro e i marcatori di un elenco.
 
 [setting.editor.option-fold-heading]
 original=Fold heading
-translation=Compressione delle intestazioni
+translation=Comprimi le intestazioni
 
 [setting.editor.option-fold-heading-description]
 original=Lets you fold all content under a heading.
@@ -144,11 +144,11 @@ translation=Consente di comprimere tutto il contenuto presente sotto un’intest
 
 [setting.editor.option-fold-indent]
 original=Fold indent
-translation=Compressione dei rientri
+translation=Comprimi i rientri
 
 [setting.editor.option-fold-indent-description]
 original=Lets you fold part of an indentation, such as lists.
-translation=Consente di comprimere una parte di un testo rientrato, come un elenco.
+translation=Consente di comprimere un testo rientrato, come un elenco.
 
 [setting.editor.option-default-new-tab-view]
 original=Default view for new tabs
@@ -156,7 +156,7 @@ translation=Visualizzazione predefinita per le nuove schede
 
 [setting.editor.option-default-new-tab-view-description]
 original=The default view that a new Markdown tab gets opened in.
-translation=Imposta la modalità di visualizzazione predefinita all’apertura di una nuova scheda Markdown.
+translation=Scegli la modalità di visualizzazione predefinita all’apertura di una nuova scheda.
 
 [setting.editor.option-default-new-tab-view-editing]
 original=Editing view
@@ -212,7 +212,7 @@ translation=Rientri con tabulazione
 
 [setting.editor.option-use-tabs-description]
 original=Use tabs to indent by pressing the “Tab” key. Turn this off to indent using 4 spaces.
-translation=Usa le tabulazioni per i rientri premendo il tasto “Tab”. Disattiva questa opzione per usare 4 spazi.
+translation=Usa le tabulazioni per i rientri premendo “Tab”. Disattiva per usare 4 spazi.
 
 [setting.editor.option-tab-size]
 original=Indent visual width
@@ -224,7 +224,7 @@ translation=Numero di spazi equivalenti a un carattere di tabulazione.
 
 [setting.editor.option-rtl]
 original=Right-to-left (RTL)
-translation=Scrittura da destra a sinistra (RTL)
+translation=Scrittura da destra a sinistra
 
 [setting.editor.option-rtl-description]
 original=Sets the default text direction of notes to right-to-left.
@@ -256,7 +256,7 @@ translation=Reindicizza la cache dell’archivio
 
 [setting.editor.option-reindex-vault-description]
 original=Rebuilding the cache could take a few seconds to a few minutes depending on the size of your vault.
-translation=La reindicizzazione della cache potrebbe richiedere da pochi secondi a qualche minuto, a seconda delle dimensioni dell’archivio.
+translation=La reindicizzazione richiede da pochi secondi a qualche minuto, a seconda delle dimensioni dell’archivio.
 
 [setting.editor.label-reindex]
 original=Rebuild
@@ -268,7 +268,7 @@ translation=Conferma l’attivazione della modalità Vim
 
 [setting.editor.label-vim-warning]
 original=Vim mode is for efficient text editing but can be quite counter-intuitive. If you're not familiar with Vim, this option might make it look like Obsidian has stopped working.
-translation=La modalità Vim è pensata per la modifica efficiente del testo, ma può risultare controintuitiva. Se non conosci Vim, questa opzione potrebbe far sembrare che Obsidian abbia smesso di funzionare.
+translation=La modalità Vim è pensata per la modifica efficiente del testo, ma può essere controintuitiva. Se non conosci Vim, questa opzione potrebbe far sembrare che Obsidian abbia smesso di funzionare.
 
 [setting.editor.label-vim-test]
 original=To verify that you know your way around Vim, please enter the command to quit Vim without saving below:
@@ -288,7 +288,7 @@ translation=Attiva Vim
 
 [setting.editor.msg-vim-mode-enabled]
 original=Command is correct. Vim mode now enabled.
-translation=Comando corretto. La modalità Vim è ora attiva.
+translation=Comando corretto. La modalità Vim è attiva.
 
 [setting.editor.msg-vim-mode-not-enabled]
 original=Command is incorrect. Vim mode remains disabled to protect you.
@@ -320,7 +320,7 @@ translation=File eliminati
 
 [setting.file.option-delete-destination-description]
 original=What happens to a file after you delete it.
-translation=Specifica la destinazione dei file dopo l'eliminazione.
+translation=Scegli la destinazione dei file dopo l'eliminazione.
 
 [setting.file.option-choice-system-trash]
 original=Move to system trash
@@ -340,7 +340,7 @@ translation=Elimina gli allegati quando elimini i file
 
 [setting.file.option-delete-unlinked-attachments-description]
 original=Automatically remove attachments linked to the deleted file if they're not used elsewhere.
-translation=Rimuovi automaticamente gli allegati associati al file eliminato se non in uso altrove.
+translation=Rimuovi automaticamente gli allegati del file eliminato se non usati altrove.
 
 [setting.file.option-choice-always]
 original=Always
@@ -360,7 +360,7 @@ translation=File predefinito da aprire
 
 [setting.file.option-default-open-action-description]
 original=Choose which file to open when the app starts.
-translation=Scegli quale file aprire all’avvio dell’applicazione.
+translation=Scegli il file da aprire all’avvio dell’applicazione.
 
 [setting.file.option-choice-last-opened]
 original=Last opened
@@ -392,7 +392,7 @@ translation=Aggiorna automaticamente i collegamenti interni
 
 [setting.file.option-always-update-links-description]
 original=Turn off to be prompted to update links after renaming a file.
-translation=Disattiva questa opzione per confermare manualmente l’aggiornamento dei collegamenti dopo aver rinominato un file.
+translation=Disattiva per confermare manualmente l’aggiornamento dei collegamenti quando rinomini un file.
 
 [setting.file.option-new-note-location]
 original=Default location for new notes
@@ -400,7 +400,7 @@ translation=Posizione predefinita per le nuove note
 
 [setting.file.option-new-note-location-description]
 original=Where newly created notes are placed.
-translation=Specifica la cartella in cui verranno inserite le nuove note.
+translation=Scegli la cartella in cui inserire le nuove note.
 
 [setting.file.option-choice-vault-root]
 original=Vault folder
@@ -428,7 +428,7 @@ translation=Usa i [[Wikilink]]
 
 [setting.file.option-use-wiki-links-description]
 original=Auto-generate Wikilinks for [[links]] and ![[images]] instead of Markdown links and images. Disable this option to generate Markdown links instead.
-translation=Genera automaticamente i [[collegamenti]] e le ![[immagini]] come Wikilink anziché in Markdown. Disattiva questa opzione per usare il formato Markdown.
+translation=Genera automaticamente i [[collegamenti]] e le ![[immagini]] come Wikilink anziché in Markdown. Disattiva per usare il formato Markdown.
 
 [setting.file.option-show-unsupported-files]
 original=Show all file types
@@ -436,7 +436,7 @@ translation=Mostra tutti i tipi di file
 
 [setting.file.option-show-unsupported-files-description]
 original=Show files with any extension even if Obsidian can't open them natively, so you can link to them and see them in File Explorer and Quick Switcher.
-translation=Mostra anche quei tipi di file che Obsidian non sa aprire direttamente, in modo da poterci creare dei collegamenti e visualizzarli in Esplora file e Selezione rapida.
+translation=Mostra anche i file che Obsidian non sa aprire direttamente, per poterli collegare e visualizzare in Esplora file e Selezione rapida.
 
 [setting.file.option-links]
 original=Links
@@ -448,7 +448,7 @@ translation=Formato dei nuovi collegamenti
 
 [setting.file.option-link-autocompleted-format-description]
 original=What links to insert when auto-generating internal links.
-translation=Specifica il formato dei collegamenti interni inseriti durante la generazione automatica.
+translation=Scegli il formato dei collegamenti interni generati automaticamente.
 
 [setting.file.option-choice-shortest-linktext]
 original=Shortest path when possible
@@ -468,7 +468,7 @@ translation=Posizione predefinita per i nuovi allegati
 
 [setting.file.option-new-attachment-location-description]
 original=Where newly added attachments are placed.
-translation=Specifica la cartella in cui verranno inseriti i nuovi allegati.
+translation=Scegli la cartella in cui inserire i nuovi allegati.
 
 [setting.file.option-new-attachment-location-default]
 original=Attachments
@@ -492,7 +492,7 @@ translation=Nome della sottocartella
 
 [setting.file.option-attachment-subfolder-path-description]
 original=If your file is in “vault/folder”, and you set subfolder name to “attachments”, attachments will be saved to “vault/folder/attachments”.
-translation=Se il file è in “archivio/cartella” e la sottocartella si chiama “allegati”, gli allegati saranno salvati in “archivio/cartella/allegati”.
+translation=Se il file è in “archivio/cartella” e chiami la sottocartella “allegati”, gli allegati saranno salvati in “archivio/cartella/allegati”.
 
 [setting.file.option-excluded-files]
 original=Excluded files
@@ -504,11 +504,11 @@ translation=I file esclusi non compariranno in Ricerca, Vista a grafo e Menzioni
 
 [setting.file.label-no-excluded-filters-applied]
 original=No excluded filter is applied right now. Add one below.
-translation=Nessun filtro di esclusione attivo. Aggiungine uno di seguito.
+translation=Nessun filtro di esclusione attivo. Aggiungine uno qui sotto.
 
 [setting.file.label-excluded-filters-applied]
 original=Files matching the following filters are currently excluded:
-translation=I file corrispondenti ai seguenti filtri sono attualmente esclusi:
+translation=I file corrispondenti a questi filtri sono esclusi:
 
 [setting.file.label-excluded-filter]
 original=Filter
@@ -548,7 +548,7 @@ translation=Colore di risalto
 
 [setting.appearance.option-accent-color-description]
 original=Choose the accent color used throughout the app.
-translation=Scegli il colore di risalto da usare nell’applicazione.
+translation=Scegli il colore di risalto per l’applicazione.
 
 [setting.appearance.dark-theme]
 original=Dark
@@ -620,7 +620,7 @@ translation=Inserisci il nome del carattere...
 
 [setting.appearance.label-no-custom-font-set]
 original=No custom font is applied right now. Add one below.
-translation=Nessun carattere personalizzato. Aggiungine uno di seguito.
+translation=Nessun carattere personalizzato. Aggiungine uno qui sotto.
 
 [setting.appearance.label-font-applied]
 original=The first font from this list that is available on your system will be applied.
@@ -644,7 +644,7 @@ translation=Temi della comunità
 
 [setting.appearance.option-community-themes-description]
 original=Preview and use amazing themes created by the community.
-translation=Sfoglia e utilizza i temi creati dalla comunità.
+translation=Sfoglia e usa i temi creati dalla comunità.
 
 [setting.appearance.button-browse-community-themes]
 original=Browse
@@ -664,7 +664,7 @@ translation=Regolazione rapida
 
 [setting.appearance.option-font-size-action-description]
 original=Adjust the font size using Ctrl + Scroll, or using the trackpad pinch-zoom gesture.
-translation=Regola la dimensione del carattere usando Ctrl + rotellina del mouse o il gesto di zoom con le dita sul trackpad.
+translation=Regola la dimensione del carattere con Ctrl + rotellina del mouse o con il gesto di ingrandimento con le dita sul trackpad.
 
 [setting.appearance.option-themes]
 original=Themes
@@ -688,7 +688,7 @@ translation=Menu di sistema
 
 [setting.appearance.option-native-menus-desc]
 original=Menus throughout the app will match the operating system. They will not be affected by your theme.
-translation=I menu dell’applicazione si adatteranno al sistema operativo e non saranno influenzati dal tema.
+translation=I menu si adatteranno al sistema operativo e non saranno influenzati dal tema.
 
 [setting.appearance.button-reload-themes]
 original=Reload themes
@@ -760,7 +760,7 @@ translation=Cornice della finestra
 
 [setting.appearance.option-frame-description]
 original=Determines the styling of the title bar of Obsidian windows. Requires a full restart to take effect.
-translation=Seleziona lo stile della cornice delle finestre di Obsidian. Riavvia per applicare le modifiche.
+translation=Scegli lo stile della cornice delle finestre di Obsidian. Riavvia per applicare le modifiche.
 
 [setting.appearance.option-frame-hidden]
 original=Hidden (default)
@@ -788,11 +788,11 @@ translation=Scegli un’icona personalizzata
 
 [setting.appearance.option-configure-ribbon]
 original=Ribbon menu configuration
-translation=Configurazione della barra multifunzione
+translation=Configura la barra multifunzione
 
 [setting.appearance.option-configure-ribbon-desc]
 original=Configure what commands appear in the ribbon menu.
-translation=Configura i comandi che appaiono nella barra multifunzione.
+translation=Scegli i comandi da mostrare nella barra multifunzione.
 
 [setting.appearance.option-mobile-quick-ribbon-item]
 original=Quick access ribbon item
@@ -816,7 +816,7 @@ translation=Mostra la barra multifunzione
 
 [setting.appearance.option-show-ribbon-desc]
 original=Display vertical toolbar on the side of the window.
-translation=Visualizza la barra degli strumenti verticale sul lato della finestra.
+translation=Mostra la barra degli strumenti verticale a lato della finestra.
 
 [setting.appearance.label-additional-ribbon-items]
 original=Other ribbon items
@@ -824,11 +824,11 @@ translation=Altri comandi della barra multifunzione
 
 [setting.appearance.label-modal-configuration]
 original=Ribbon menu
-translation=Configurazione della barra multifunzione
+translation=Configura la barra multifunzione
 
 [setting.appearance.label-modal-configuration-desc]
 original=Choose what items you want to be active in the ribbon. Drag and drop to change the order.
-translation=Scegli quali comandi attivare nella barra multifunzione. Trascinali per cambiarne l’ordine.
+translation=Scegli i comandi da attivare nella barra multifunzione. Trascinali per cambiarne l’ordine.
 
 [setting.appearance.option-show-view-header]
 original=Show tab title bar
@@ -836,7 +836,7 @@ translation=Mostra la barra del titolo della scheda
 
 [setting.appearance.option-show-view-header-desc]
 original=Display the header at the top of every tab.
-translation=Visualizza l’intestazione nella parte superiore di ogni scheda.
+translation=Mostra l’intestazione in cima a ogni scheda.
 
 [setting.appearance.option-floating-navigation]
 original=Floating navigation
@@ -844,7 +844,7 @@ translation=Menu di navigazione fisso
 
 [setting.appearance.option-floating-navigation-desc]
 original=Navigation buttons float over the content instead of being anchored.
-translation=I pulsanti di navigazione rimangono fissi a schermo invece che vincolati al contenuto.
+translation=I pulsanti di navigazione restano fissi a schermo invece che vincolati al contenuto.
 
 [setting.appearance.option-sliding-sidebar]
 original=Sliding sidebars
@@ -852,7 +852,7 @@ translation=Barre laterali a scorrimento
 
 [setting.appearance.option-sliding-sidebar-desc]
 original=Sidebars slide to the side of the content instead of floating above.
-translation=Le barre laterali scorrono a lato del contenuto anziché rimanere fisse a schermo.
+translation=Le barre laterali scorrono a lato del contenuto anziché restare fisse a schermo.
 
 [setting.appearance.option-auto-full-screen]
 original=Full screen
@@ -956,11 +956,11 @@ translation=Personalizza il comando
 
 [setting.hotkeys.tooltip-hotkey-single-conflict]
 original=This hotkey conflicts with “{{command}}”
-translation=Questo tasto di scelta rapida è in conflitto con "{{command}}"
+translation=Il tasto è in conflitto con "{{command}}"
 
 [setting.hotkeys.tooltip-hotkey-multiple-conflicts]
 original=This hotkey conflicts with {{count}} other commands
-translation=Questo tasto di scelta rapida è in conflitto con {{count}} altri comandi
+translation=Il tasto è in conflitto con {{count}} altri comandi
 
 [setting.hotkeys.label-blank-hotkey]
 original=Blank
@@ -1004,7 +1004,7 @@ translation=nome-credenziale
 
 [setting.keychain.option-secret-id-description]
 original=Lowercase letters, numbers and dashes only.
-translation=Sono ammessi solo lettere minuscole, numeri e trattini.
+translation=Usa solo lettere minuscole, numeri e trattini.
 
 [setting.keychain.option-secret-value-description]
 original=Enter your secret.
@@ -1016,11 +1016,11 @@ translation=Mai utilizzata
 
 [setting.keychain.msg-error-update-secret]
 original=Failed to update secret.
-translation=Aggiornamento della credenziale non riuscito.
+translation=Non è possibile aggiornare la credenziale.
 
 [setting.keychain.msg-error-add-secret]
 original=Failed to add secret.
-translation=Aggiunta della credenziale non riuscita.
+translation=Non è possibile aggiungere la credenziale.
 
 [setting.keychain.msg-error-secret-id-exists]
 original=A secret with this ID already exists.
@@ -1036,7 +1036,7 @@ translation=L’ID della credenziale non è valido. Usa solo lettere minuscole, 
 
 [setting.keychain.keychain-empty-state]
 original=No secrets have been added. Secrets are used to store information like API keys and passwords that plugins can use.
-translation=Non hai ancora aggiunto alcuna credenziale. Le credenziali servono a memorizzare informazioni come le chiavi API e le chiavi d’accesso utilizzabili dalle estensioni.
+translation=Non hai ancora aggiunto alcuna credenziale. Le credenziali servono a memorizzare informazioni come le chiavi API e le chiavi d’accesso usate dalle estensioni.
 
 [setting.keychain.label-select-secret]
 original=Select secret
@@ -1060,7 +1060,7 @@ translation=Le credenziali verranno archiviate in chiaro perché il sistema non 
 
 [setting.keychain.msg-secrets-not-encrypted-short]
 original=Secrets are not encrypted
-translation=Le credenziali non sono crittografate
+translation=Le credenziali sono in chiaro
 
 [setting.keychain.button-dismiss-warning]
 original=Don't show again
@@ -1120,7 +1120,7 @@ translation=Leggi il registro delle modifiche.
 
 [setting.about.label-manual-update-required]
 original=To support the latest features and to receive the latest security patches, Obsidian needs a major installer update. You need to manually download and reinstall Obsidian.
-translation=Per supportare le nuove funzionalità e ricevere gli ultimi aggiornamenti di sicurezza, è necessario un importante aggiornamento del programma d’installazione. Scarica Obsidian e reinstallalo manualmente.
+translation=Per supportare le nuove funzionalità e ricevere gli ultimi aggiornamenti di sicurezza, serve un importante aggiornamento del programma d’installazione. Scarica e reinstalla Obsidian manualmente.
 
 [setting.about.label-new-version-ready]
 original=A new version is ready to be installed. 
@@ -1144,7 +1144,7 @@ translation=Aggiornamenti automatici
 
 [setting.about.option-auto-update-description]
 original=Turn this off to prevent the app from checking for updates.
-translation=Disattiva questa opzione per impedire all’applicazione di verificare gli aggiornamenti.
+translation=Disattiva per impedire all’applicazione di verificare gli aggiornamenti.
 
 [setting.about.option-check-slow-startup]
 original=Notify if startup takes longer than expected
@@ -1152,7 +1152,7 @@ translation=Avvisa se l’avvio richiede più tempo del previsto
 
 [setting.about.option-check-slow-startup-description]
 original=Diagnose issues with your app by seeing what is causing the app to load slowly.
-translation=Analizza i problemi dell’applicazione per scoprire che cosa ne rallenta il caricamento.
+translation=Analizza i problemi dell’applicazione per scoprire cosa ne rallenta il caricamento.
 
 [setting.about.button-check-startup]
 original=Check now
@@ -1168,11 +1168,11 @@ translation=Consente di interagire con Obsidian dalla riga di comando.
 
 [setting.about.option-register-path]
 original=Set up CLI to work in the terminal
-translation=Configura l’interfaccia a riga di comando per il terminale
+translation=Configura la CLI per il terminale
 
 [setting.about.option-register-path-description]
 original=Register "obsidian" in PATH to enable accessing the "obsidian" command anywhere from your terminal.
-translation=Registra il comando "obsidian" nella variabile PATH per abilitarne l’uso da qualsiasi posizione nel terminale.
+translation=Registra il comando "obsidian" nella variabile PATH per usarlo da qualsiasi posizione nel terminale.
 
 [setting.about.button-register]
 original=Register
@@ -1228,7 +1228,7 @@ translation=Personalizza la cartella di configurazione
 
 [setting.about.option-config-location-description]
 original=Use a different config folder than the default one. Must start with a dot.
-translation=Utilizza una cartella di configurazione diversa da quella predefinita. Deve iniziare con un punto.
+translation=Usa una cartella di configurazione diversa da quella predefinita. Deve iniziare con un punto.
 
 [setting.about.option-config-location-warning]
 original=Config location must be a valid folder name that starts with a dot.
@@ -1268,7 +1268,7 @@ translation=Licenza Catalyst di livello {{tier}} attiva. Grazie per il sostegno!
 
 [setting.about.option-catalyst-desc-no-license]
 original=You don't have a Catalyst license. Catalyst is a one-time donation that helps Obsidian remain 100% user-supported and gives you early access to new features.
-translation=Nessuna licenza Catalyst attiva. Catalyst è una donazione una tantum per permettere a Obsidian di rimanere finanziata al 100% dagli utenti e per ottenere l’accesso anticipato alle nuove funzionalità.
+translation=Nessuna licenza Catalyst attiva. Catalyst è una donazione una tantum che aiuta Obsidian a restare finanziata interamente dagli utenti e ti dà l’accesso anticipato alle nuove funzionalità.
 
 [setting.about.label-app]
 original=App
@@ -1292,7 +1292,7 @@ translation=Accesso effettuato come {{name}} ({{email}}).
 
 [setting.account.option-your-account-desc-no-login]
 original=You're not logged in right now. An account is only needed for Obsidian Sync, Obsidian Publish, and early access versions.
-translation=Accesso non effettuato. Il profilo è necessario solo per Obsidian Sync, Obsidian Publish e le versioni ad accesso anticipato.
+translation=Accesso non effettuato. Il profilo serve solo per Obsidian Sync, Obsidian Publish e le versioni ad accesso anticipato.
 
 [setting.account.button-upgrade-catalyst]
 original=Upgrade
@@ -1364,7 +1364,7 @@ translation=La chiave d’accesso non può essere vuota.
 
 [setting.account.message-login-failed]
 original=Login failed, please double check your email and password.
-translation=Accesso non riuscito. Verifica i dati e riprova.
+translation=Non è possibile accedere. Verifica i dati e riprova.
 
 [setting.account.message-signup-failed]
 original=Failed to sign up
@@ -1424,7 +1424,7 @@ translation=Attiva e ricarica
 
 [setting.third-party-plugin.option-automatic-update-check]
 original=Automatically check for plugin updates
-translation=Verifica automatica degli aggiornamenti
+translation=Verifica automaticamente gli aggiornamenti
 
 [setting.third-party-plugin.option-automatic-update-check-desc]
 original=Periodically check for plugin updates.
@@ -1468,7 +1468,7 @@ translation=Prima della pubblicazione, il nostro gruppo di lavoro sottopone le e
 
 [setting.third-party-plugin.label-open-source]
 original=Open source
-translation=Open source
+translation=Codice aperto
 
 [setting.third-party-plugin.label-open-source-desc]
 original=Most plugins are open source on GitHub, so you can inspect the code yourself.
@@ -1496,7 +1496,7 @@ translation=Vuoi uscire dalla modalità limitata per attivare le estensioni dell
 
 [setting.third-party-plugin.label-learn-more]
 original=Learn more about plugin security
-translation=Ulteriori informazioni sulla sicurezza delle estensioni
+translation=Scopri di più sulla sicurezza delle estensioni
 
 [setting.third-party-plugin.button-turn-on-community-plugins]
 original=Turn on community plugins
@@ -1504,7 +1504,7 @@ translation=Attiva le estensioni della comunità
 
 [setting.third-party-plugin.label-trust-author]
 original=Do you trust the author of this vault?
-translation=Ritieni attendibile l’autore di questo archivio?
+translation=Ti fidi dell’autore di questo archivio?
 
 [setting.third-party-plugin.label-trust-author-description-1]
 original=You're opening this vault for the first time, and it comes with some plugins.
@@ -1516,11 +1516,11 @@ translation=Se hai ricevuto questo archivio da altre persone, tieni presente che
 
 [setting.third-party-plugin.label-trust-author-description-3]
 original=If you do not fully trust the author of this vault, we recommend staying in Restricted Mode, so the plugins in this vault do not run.
-translation=Se non ritieni l’autore di questo archivio completamente attendibile, ti consigliamo di restare in modalità limitata per impedire l’esecuzione delle estensioni.
+translation=Se non ti fidi del tutto dell’autore di questo archivio, ti consigliamo di restare in modalità limitata per impedire l’esecuzione delle estensioni.
 
 [setting.third-party-plugin.button-enable-plugins]
 original=Trust author and enable plugins
-translation=Ritieni l’autore attendibile e attiva le estensioni
+translation=Fidati dell’autore e attiva le estensioni
 
 [setting.third-party-plugin.button-dont-trust-author]
 original=Browse vault in Restricted Mode
@@ -1532,7 +1532,7 @@ translation=Cerca tra le estensioni della comunità...
 
 [setting.third-party-plugin.msg-failed-load-plugins]
 original=Failed to load community plugins.
-translation=Caricamento delle estensioni della comunità non riuscito.
+translation=Non è possibile caricare le estensioni della comunità.
 
 [setting.third-party-plugin.label-installed]
 original=Installed
@@ -1568,7 +1568,7 @@ translation=Nessun file recente trovato. Digita per cercare...
 
 [setting.third-party-plugin.msg-failed-to-load-manifest]
 original=Failed to load plugin manifest.
-translation=Caricamento del manifesto dell’estensione non riuscito.
+translation=Non è possibile caricare il manifesto dell’estensione.
 
 [setting.third-party-plugin.label-version]
 original=Version: {{version}}
@@ -1596,7 +1596,7 @@ translation=Visualizza l’ultimo aggiornamento
 
 [setting.third-party-plugin.label-unsupported]
 original=This plugin does not support your device.
-translation=Questa estensione non è compatibile con il dispositivo.
+translation=L’estensione non è compatibile con il dispositivo.
 
 [setting.third-party-plugin.button-update]
 original=Update
@@ -1612,7 +1612,7 @@ translation=Installazione dell’estensione “{{name}}” in corso...
 
 [setting.third-party-plugin.msg-failed-to-install-plugin]
 original=Failed to install plugin “{{name}}”.
-translation=Installazione dell’estensione “{{id}}” non riuscita.
+translation=Non è possibile installare l’estensione “{{id}}”.
 
 [setting.third-party-plugin.msg-successfully-installed-plugin]
 original=Successfully installed plugin “{{name}}”.
@@ -1620,11 +1620,11 @@ translation=Estensione “{{name}}” installata correttamente.
 
 [setting.third-party-plugin.msg-failed-to-uninstall-plugin]
 original=Failed to uninstall plugin “{{id}}”.
-translation=Disinstallazione dell’estensione “{{id}}” non riuscita.
+translation=Non è possibile disinstallare l’estensione “{{id}}”.
 
 [setting.third-party-plugin.msg-failed-to-disable-plugin]
 original=Failed to disable plugin “{{id}}”.
-translation=Disattivazione dell’estensione “{{id}}” non riuscita.
+translation=Non è possibile disattivare l’estensione “{{id}}”.
 
 [setting.third-party-plugin.label-installed-plugins]
 original=Installed plugins
@@ -1648,7 +1648,7 @@ translation=Disinstalla l’estensione
 
 [setting.third-party-plugin.label-uninstall-plugin-confirmation]
 original=Are you sure you want to uninstall this plugin? This will delete the folder of the plugin.
-translation=Disinstallare questa estensione? La sua cartella verrà eliminata.
+translation=Disinstallare l’estensione? La sua cartella verrà eliminata.
 
 [setting.third-party-plugin.button-open-plugins-folder]
 original=Open plugins folder
@@ -1760,11 +1760,11 @@ translation=Barra degli strumenti
 
 [setting.mobile-toolbar.option-configure-quick-action]
 original=Configure mobile Quick Action
-translation=Configura l'azione rapida per dispositivi mobili
+translation=Configura l’azione rapida per i dispositivi mobili
 
 [setting.mobile-toolbar.option-configure-quick-action-description]
 original=Configure which command to trigger when pulling down from the top. The current command is set to “{{command}}”.
-translation=Configura quale comando attivare trascinando lo schermo verso il basso. Comando attuale: "{{command}}".
+translation=Scegli il comando da attivare trascinando lo schermo verso il basso. Comando attuale: "{{command}}".
 
 [setting.mobile-toolbar.msg-missing-quick-action]
 original=Action not configured
@@ -1776,7 +1776,7 @@ translation=Configura
 
 [setting.mobile-toolbar.placeholder-select-quick-action]
 original=Select Quick Action...
-translation=Seleziona un’azione rapida...
+translation=Scegli un’azione rapida...
 
 [setting.mobile-toolbar.quick-action-disabled]
 original=None
@@ -1832,19 +1832,19 @@ translation=Inserisci un collegamento Markdown
 
 [setting.mobile-toolbar.option-bullet-list]
 original=Toggle bullet list
-translation=Attiva/disattiva gli elenchi puntati
+translation=Attiva/disattiva l’elenco puntato
 
 [setting.mobile-toolbar.option-numbered-list]
 original=Toggle numbered list
-translation=Attiva/disattiva gli elenchi numerati
+translation=Attiva/disattiva l’elenco numerato
 
 [setting.mobile-toolbar.option-indent-list]
 original=Indent list item
-translation=Aumenta il rientro negli elenchi
+translation=Aumenta il rientro
 
 [setting.mobile-toolbar.option-unindent-list]
 original=Unindent list item
-translation=Riduci il rientro negli elenchi
+translation=Riduci il rientro
 
 [setting.mobile-toolbar.option-undo]
 original=Undo
@@ -2076,11 +2076,11 @@ translation=Cerca l’etichetta
 
 [interface.embed-cannot-find]
 original=Cannot find:
-translation=Impossibile trovare:
+translation=Non è possibile trovare:
 
 [interface.label-unable-to-find-section]
 original=Unable to find “{{subpath}}” in {{file}}
-translation=Impossibile trovare “{{subpath}}” in {{file}}
+translation=Non è possibile trovare “{{subpath}}” in {{file}}
 
 [interface.embed-open-in-default-app-tooltip]
 original=Open in default app
@@ -2088,7 +2088,7 @@ translation=Apri con l’applicazione predefinita
 
 [interface.empty-sidebar]
 original=The sidebar is empty, try dragging a tab here.
-translation=La barra laterale è vuota; prova a trascinare qui una scheda.
+translation=La barra laterale è vuota. Trascina qui una scheda.
 
 [interface.sidebar-expand]
 original=Expand
@@ -2100,11 +2100,11 @@ translation=Comprimi
 
 [interface.msg-fail-to-save-file]
 original=Failed to save file “{{filepath}}”. {{message}}. Make a backup of the contents of this file now to avoid losing data.
-translation=Salvataggio del file “{{filepath}}” non riuscito. {{message}}. Crea subito una copia di questo file per evitare di perdere i dati.
+translation=Non è possibile salvare il file “{{filepath}}”. {{message}}. Crea subito una copia del file per evitare di perdere i dati.
 
 [interface.msg-failed-to-load-plugin]
 original=Failed to load plugin “{{plugin}}”
-translation=Caricamento dell’estensione “{{plugin}}” non riuscito
+translation=Non è possibile caricare l’estensione “{{plugin}}”
 
 [interface.msg-plugin-error]
 original=Plugin “{{plugin}}” encountered an error while loading
@@ -2112,11 +2112,11 @@ translation=Errore durante il caricamento dell’estensione “{{plugin}}”
 
 [interface.msg-failed-to-load-file]
 original=Failed to open “{{filepath}}”
-translation=Apertura del file “{{filepath}}” non riuscita
+translation=Non è possibile aprire il file “{{filepath}}”
 
 [interface.msg-failed-to-open-href]
 original=Cannot open location “{{href}}”
-translation=Apertura del percorso “{{href}}” non riuscita
+translation=Non è possibile aprire il percorso “{{href}}”
 
 [interface.no-file]
 original=No file
@@ -2160,7 +2160,7 @@ translation=Rilevato un avvio lento.
 
 [interface.msg-desktop-only-feature]
 original=This feature is only available in the desktop app.
-translation=Questa funzionalità è disponibile solo nell’applicazione per la scrivania.
+translation=Questa funzionalità è disponibile solo nell’applicazione desktop.
 
 [interface.tooltip-restore-default-settings]
 original=Restore default settings
@@ -2184,7 +2184,7 @@ translation={{item}} copiato negli Appunti
 
 [interface.copy_failed]
 original=Unable to copy to your clipboard
-translation=Impossibile copiare negli Appunti
+translation=Non è possibile copiare negli Appunti
 
 [interface.prompt-filter]
 original=Filter...
@@ -2272,7 +2272,7 @@ translation=Nascondi la barra multifunzione
 
 [interface.msg-tab-busy]
 original=This tab is currently busy, please try again later
-translation=Questa scheda è occupata; riprova più tardi
+translation=Questa scheda è occupata. Riprova più tardi
 
 [interface.formatting.label-formatting]
 original=Format
@@ -2420,7 +2420,7 @@ translation=Nessuna nota di rilascio disponibile per {{version}}.
 
 [interface.release-notes.msg-failed-to-load]
 original=Could not load release notes for {{version}}.
-translation=Impossibile caricare le note di rilascio per {{version}}.
+translation=Non è possibile caricare le note di rilascio per {{version}}.
 
 [interface.release-notes.msg-release-date]
 original=Released on {{date}}
@@ -2740,15 +2740,15 @@ translation=Vault già esistente con questo nome.
 
 [interface.start-screen.msg-error-nested]
 original=Cannot move vault into a subfolder of itself.
-translation=Impossibile spostare il vault in una sua sottocartella.
+translation=Non è possibile spostare il vault in una sua sottocartella.
 
 [interface.start-screen.msg-error-rename-open]
 original=Can't rename a currently open vault.
-translation=Impossibile rinominare un vault attualmente aperto.
+translation=Non è possibile rinominare un vault attualmente aperto.
 
 [interface.start-screen.msg-rename-failed]
 original=Failed to rename vault.
-translation=Impossibile rinominare il vault.
+translation=Non è possibile rinominare il vault.
 
 [interface.start-screen.msg-rename-success]
 original=Successfully renamed vault.
@@ -2768,11 +2768,11 @@ translation=Vault già esistente nella posizione specificata.
 
 [interface.start-screen.msg-error-move-open]
 original=Can't move a currently open vault.
-translation=Impossibile spostare un vault attualmente aperto.
+translation=Non è possibile spostare un vault attualmente aperto.
 
 [interface.start-screen.msg-move-failed]
 original=Failed to move vault.
-translation=Impossibile spostare il vault.
+translation=Non è possibile spostare il vault.
 
 [interface.start-screen.msg-move-success]
 original=Successfully moved vault.
@@ -2820,11 +2820,11 @@ translation=Scegliere una cartella valida.
 
 [interface.start-screen.msg-failed-to-create-vault]
 original=Failed to create vault.
-translation=Impossibile creare il vault.
+translation=Non è possibile creare il vault.
 
 [interface.start-screen.msg-failed-to-create-vault-at-location]
 original=Could not create vault at the given location. Please double check the location and permission.
-translation=Impossibile creare il vault nella posizione specificata. Controllare il percorso e i permessi.
+translation=Non è possibile creare il vault nella posizione specificata. Controllare il percorso e i permessi.
 
 [interface.start-screen.msg-error-failed-to-open-vault]
 original=Failed to open.
@@ -2832,7 +2832,7 @@ translation=Apertura non riuscita.
 
 [interface.start-screen.msg-error-remove-current-open-vault]
 original=Can't remove a currently open vault.
-translation=Impossibile rimuovere un vault attualmente in uso.
+translation=Non è possibile rimuovere un vault attualmente in uso.
 
 [interface.start-screen.option-get-help]
 original=Get Help
@@ -3352,7 +3352,7 @@ translation=Caricamento del vault in corso...
 
 [interface.start-up.msg-failed-to-load-vault]
 original=Failed to load vault: 
-translation=Impossibile caricare il vault: 
+translation=Non è possibile caricare il vault: 
 
 [interface.start-up.loading-cache]
 original=Loading cache...
@@ -3396,7 +3396,7 @@ translation=Importazione completata
 
 [interface.mobile.msg-failed-to-import-file]
 original=Failed to import file “{{filename}}”
-translation=Impossibile importare il file {{filename}}
+translation=Non è possibile importare il file {{filename}}
 
 [interface.mobile.msg-back-again-to-exit]
 original=Press back again to exit.
@@ -5480,7 +5480,7 @@ translation=Nessun segnalibro trovato
 
 [plugins.bookmarks.label-invalid-data]
 original=Failed to load bookmarks.
-translation=Impossibile caricare i segnalibri.
+translation=Non è possibile caricare i segnalibri.
 
 [plugins.bookmarks.label-invalid-data-desc]
 original=The data file is corrupted.
@@ -5596,7 +5596,7 @@ translation=Vedi su GitHub
 
 [plugins.custom-css.msg-load-error]
 original=Could not load community themes, please check your network.
-translation=Impossibile caricare i temi della comunità, controllare la connessione di rete.
+translation=Non è possibile caricare i temi della comunità, controllare la connessione di rete.
 
 [plugins.custom-css.msg-now-using-theme]
 original=You're now using {{title}} as your CSS theme.
@@ -5624,7 +5624,7 @@ translation=Aggiorna tutto
 
 [plugins.custom-css.msg-failed-load-themes]
 original=Failed to load community themes.
-translation=Impossibile caricare i temi della comunità.
+translation=Non è possibile caricare i temi della comunità.
 
 [plugins.custom-css.msg-no-updates-found]
 original=No theme updates found.
@@ -5640,7 +5640,7 @@ translation={{count}} temi da aggiornare.
 
 [plugins.custom-css.msg-failed-to-install-theme]
 original=Failed to install theme “{{name}}”.
-translation=Impossibile installare il tema "{{name}}".
+translation=Non è possibile installare il tema "{{name}}".
 
 [plugins.custom-css.msg-successfully-installed-theme]
 original=Successfully installed theme “{{name}}”.
@@ -5848,15 +5848,15 @@ translation=Inserisci collegamento nella nota del giorno
 
 [plugins.daily-notes.msg-fail-format]
 original=Failed to create daily note. “{{format}}” is not a valid format.
-translation=Impossibile creare la nota del giorno. "{{format}}" non è un formato valido.
+translation=Non è possibile creare la nota del giorno. "{{format}}" non è un formato valido.
 
 [plugins.daily-notes.msg-fail-folder]
 original=Failed to create daily note. Folder “{{folderOption}}” not found.
-translation=Impossibile creare la nota del giorno. Cartella "{{folderOption}}" non trovata.
+translation=Non è possibile creare la nota del giorno. Cartella "{{folderOption}}" non trovata.
 
 [plugins.daily-notes.msg-fail-template-file]
 original=Failed to create daily note. Template file “{{template}}” not found.
-translation=Impossibile creare la nota del giorno. Modello "{{template}}" non trovato.
+translation=Non è possibile creare la nota del giorno. Modello "{{template}}" non trovato.
 
 [plugins.daily-notes.msg-no-previous]
 original=There's no daily note before this one.
@@ -5952,7 +5952,7 @@ translation=Percorso della cartella per le nuove note univoche.
 
 [plugins.unique-note-creator.msg-folder-not-found]
 original=Failed to create unique note. Folder “{{folderOption}}” not found.
-translation=Impossibile creare la nota univoca. Cartella "{{folderOption}}" non trovata.
+translation=Non è possibile creare la nota univoca. Cartella "{{folderOption}}" non trovata.
 
 [plugins.unique-note-creator.option-template-file]
 original=Template file location
@@ -5972,11 +5972,11 @@ translation=Formato del prefisso univoco
 
 [plugins.unique-note-creator.msg-template-file-not-found]
 original=Failed to create unique note. Template file “{{template}}” not found.
-translation=Impossibile creare la nota univoca. Modello "{{template}}" non trovato.
+translation=Non è possibile creare la nota univoca. Modello "{{template}}" non trovato.
 
 [plugins.unique-note-creator.msg-failed-to-generate]
 original=Failed to generate a unique note with the format “{{format}}”
-translation=Impossibile generare una nota univoca con il formato "{{format}}
+translation=Non è possibile generare una nota univoca con il formato "{{format}}
 
 [plugins.random-note.name]
 original=Random note
@@ -6172,11 +6172,11 @@ translation=Nessun modello trovato
 
 [plugins.templates.msg-fail-invalid-folder]
 original=Failed to list templates. Template folder is invalid.
-translation=Impossibile visualizzare i modelli. Cartella dei modelli non valida.
+translation=Non è possibile visualizzare i modelli. Cartella dei modelli non valida.
 
 [plugins.templates.msg-fail-folder-not-found]
 original=Failed to list templates. Folder “{{folderOption}}” not found.
-translation=Impossibile visualizzare i modelli. Cartella "{{folderOption}}" non trovata.
+translation=Non è possibile visualizzare i modelli. Cartella "{{folderOption}}" non trovata.
 
 [plugins.templates.msg-fail-invalid-template-properties]
 original=Unable to insert template, the properties in the template file could not be read.
@@ -6184,7 +6184,7 @@ translation=Inserimento del template fallito, non è stato possibile leggere le 
 
 [plugins.templates.msg-no-folder-set]
 original=Failed to list templates. No template folder configured.
-translation=Impossibile visualizzare i modelli. Nessuna cartella dei modelli configurata.
+translation=Non è possibile visualizzare i modelli. Nessuna cartella dei modelli configurata.
 
 [plugins.templates.prompt-type-template]
 original=Type name of a template...
@@ -7128,7 +7128,7 @@ translation=Vuoto
 
 [plugins.sync.label-unable-to-retrieve]
 original=Unable to retrieve version history
-translation=Impossibile recuperare storico versioni
+translation=Non è possibile recuperare storico versioni
 
 [plugins.sync.label-setting-files]
 original=Setting files
@@ -7320,7 +7320,7 @@ translation=Per favore visita
 
 [plugins.sync.label-preview-unsupported-file-type]
 original=Unable to preview {{type}} files.
-translation=Impossibile visualizzare l'anteprima dei file {{type}}.
+translation=Non è possibile visualizzare l'anteprima dei file {{type}}.
 
 [plugins.sync.button-create-new-remote-vault]
 original=Create new vault
@@ -7476,7 +7476,7 @@ translation=Il vault occupa {{size}} su {{limit}}
 
 [plugins.sync.option-vault-size-unknown]
 original=Unable to retrieve your vault size.
-translation=Impossibile recuperare le dimensioni del vault.
+translation=Non è possibile recuperare le dimensioni del vault.
 
 [plugins.sync.option-vault-size-loading]
 original=Retrieving your vault size...
@@ -7808,7 +7808,7 @@ translation=Abbandona
 
 [plugins.sync.msg-error-failed-to-fetch]
 original=Failed to load remote vaults.
-translation=Impossibile caricare i vault remoti.
+translation=Non è possibile caricare i vault remoti.
 
 [plugins.sync.label-require-subscription-to-connect]
 original=You need an Obsidian Sync subscription to connect to this vault.
@@ -8096,11 +8096,11 @@ translation=per spostare in alto
 
 [plugins.note-composer.msg-fail-to-fetch-template]
 original=Failed to fetch template file: “{{template}}” not found.
-translation=Impossibile caricare il modello: "{{template}}" non trovato.
+translation=Non è possibile caricare il modello: "{{template}}" non trovato.
 
 [plugins.note-composer.msg-fail-to-find-heading]
 original=Failed to find heading
-translation=Impossibile trovare l'intestazione
+translation=Non è possibile trovare l'intestazione
 
 [plugins.web-viewer.name]
 original=Web viewer
@@ -8272,7 +8272,7 @@ translation=Nuovo visualizzatore web
 
 [plugins.web-viewer.label-fail-to-load]
 original=Unable to load site.
-translation=Impossibile caricare il sito.
+translation=Non è possibile caricare il sito.
 
 [plugins.web-viewer.label-fail-to-load-desc]
 original=Make sure you have the correct address.
@@ -8368,7 +8368,7 @@ translation=Errore imprevisto durante l'estrazione del contenuto.
 
 [plugins.web-viewer.msg-error-finding-content]
 original=Unable to find content to extract.
-translation=Impossibile trovare il contenuto da estrarre.
+translation=Non è possibile trovare il contenuto da estrarre.
 
 [plugins.canvas.name]
 original=Canvas
@@ -8744,7 +8744,7 @@ translation=Inserisci URL
 
 [plugins.canvas.label-empty-embed]
 original=“{{linktext}}” could not be found.
-translation=Impossibile trovare "{{linktext}}".
+translation=Non è possibile trovare "{{linktext}}".
 
 [plugins.canvas.prompt-add-text]
 original=Add text...
@@ -8872,7 +8872,7 @@ translation=Nessun gruppo trovato
 
 [plugins.canvas.msg-export-failed-empty-canvas]
 original=Cannot export an empty canvas
-translation=Impossibile esportare una lavagna vuota
+translation=Non è possibile esportare una lavagna vuota
 
 [plugins.canvas.msg-updating-links]
 original=Canvas detected file renames affecting {{count}} canvas file, updating...
@@ -9256,7 +9256,7 @@ translation=Questo filtro non può essere rappresentato dal generatore di filtri
 
 [plugins.bases.msg-filter-cannot-parse]
 original=Filter cannot be parsed. Basic filter builder cannot be used.
-translation=Impossibile analizzare il filtro. Impossibile usare il generatore di filtri di base.
+translation=Non è possibile analizzare il filtro. Non è possibile usare il generatore di filtri di base.
 
 [plugins.bases.msg-error-invalid-properties-section]
 original=Invalid properties configuration.
@@ -9268,11 +9268,11 @@ translation=Configurazione proprietà non valida per "{{ name }}".
 
 [plugins.bases.msg-error-register-view]
 original=Unable to add new Bases view "{{ viewId }}". A view with this ID already exists.
-translation=Impossibile aggiungere la nuova vista Base "{{ viewID }}". Esiste già una vista con questo ID.
+translation=Non è possibile aggiungere la nuova vista Base "{{ viewID }}". Esiste già una vista con questo ID.
 
 [plugins.bases.msg-error-unable-to-parse]
 original=Unable to parse your base file:
-translation=Impossibile analizzare il file base:
+translation=Non è possibile analizzare il file base:
 
 [plugins.bases.msg-error-view-not-found]
 original=View "{{ view }}" not found
@@ -9308,7 +9308,7 @@ translation="filters" può avere solo una delle chiavi "and", "or" o "not".
 
 [plugins.bases.msg-error-filter-failed-to-evaluate]
 original=Failed to evaluate a filter: {{ message }}
-translation=Impossibile valutare un filtro: {{ message }}
+translation=Non è possibile valutare un filtro: {{ message }}
 
 [plugins.bases.msg-error-formula-values]
 original=Formula values must be strings. Value for property {{ key }} is not.
@@ -9316,7 +9316,7 @@ translation=I valori delle formule devono essere stringhe. Il valore per la prop
 
 [plugins.bases.msg-error-computed-failed-to-compute]
 original=Failed to compute value of property "{{ key }}": {{ message }}
-translation=Impossibile calcolare il valore della proprietà "{{ key }}": {{ message }}
+translation=Non è possibile calcolare il valore della proprietà "{{ key }}": {{ message }}
 
 [plugins.bases.msg-error-invalid-query-format]
 original=Query is an invalid format. It should be a YAML object.
@@ -9344,7 +9344,7 @@ translation=I valori di "{{ key }}" devono essere tutti del tipo {{ type }} nell
 
 [plugins.bases.msg-error-view-parsing-filters]
 original=Unable to parse filters in view "{{ viewName }}": {{ message }}
-translation=Impossibile analizzare i filtri nella vista "{{ viewName }}": {{ message }}
+translation=Non è possibile analizzare i filtri nella vista "{{ viewName }}": {{ message }}
 
 [plugins.bases.msg-error-infinite-loop]
 original=Infinite loop detected in formula
@@ -9504,23 +9504,23 @@ translation=Riepilogo
 
 [formulas.msg-error-parse-formula]
 original=Failed to parse formula "{{ formula }}"
-translation=Impossibile analizzare la formula "{{ formula }}"
+translation=Non è possibile analizzare la formula "{{ formula }}"
 
 [formulas.msg-error-invalid-function]
 original=Cannot find function "{{ function }}"
-translation=Impossibile trovare la funzione "{{ function }}"
+translation=Non è possibile trovare la funzione "{{ function }}"
 
 [formulas.msg-error-invalid-instance-function]
 original=Cannot find function "{{ function }}" on type {{ type }}
-translation=Impossibile trovare la funzione "{{ function }}" per il tipo {{ type }}
+translation=Non è possibile trovare la funzione "{{ function }}" per il tipo {{ type }}
 
 [formulas.msg-error-not-enough-arguments]
 original=Cannot call function "{{ function }}", not enough arguments.
-translation=Impossibile chiamare la funzione "{{ function }}": argomenti insufficienti.
+translation=Non è possibile chiamare la funzione "{{ function }}": argomenti insufficienti.
 
 [formulas.msg-error-too-many-arguments]
 original=Cannot call function "{{ function }}", too many arguments.
-translation=Impossibile chiamare la funzione "{{ function }}": troppi argomenti.
+translation=Non è possibile chiamare la funzione "{{ function }}": troppi argomenti.
 
 [formulas.msg-error-type-error]
 original=Type error in "{{ function }}", parameter "{{ parameter }}". Expected {{ expected }}, given {{ given }}.
@@ -9528,11 +9528,11 @@ translation=Errore di tipo in "{{ function }}", parametro "{{ parameter }}". Att
 
 [formulas.msg-error-invalid-array-access]
 original=Cannot access index "{{ index }}" of non-array value
-translation=Impossibile accedere all'indice {{ index }} di un valore non array
+translation=Non è possibile accedere all'indice {{ index }} di un valore non array
 
 [formulas.msg-error-invalid-object-access]
 original=Cannot find "{{ index }}" on type {{ type }}
-translation=Impossibile trovare {{ index }} sul tipo {{ type }}
+translation=Non è possibile trovare {{ index }} sul tipo {{ type }}
 
 [pdf.action-highlight-all]
 original=Highlight all
