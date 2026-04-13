@@ -1800,51 +1800,51 @@ translation=Inserisci un’etichetta
 
 [setting.mobile-toolbar.option-heading]
 original=Toggle heading
-translation=Imposta intestazione
+translation=Attiva/disattiva l’intestazione
 
 [setting.mobile-toolbar.option-strikethrough]
 original=Toggle strikethrough
-translation=Imposta barrato
+translation=Attiva/disattiva il barrato
 
 [setting.mobile-toolbar.option-highlight]
 original=Toggle highlight
-translation=Imposta evidenziato
+translation=Attiva/disattiva l’evidenziato
 
 [setting.mobile-toolbar.option-code]
 original=Toggle code
-translation=Imposta codice
+translation=Attiva/disattiva il formato codice
 
 [setting.mobile-toolbar.option-blockquote]
 original=Toggle blockquote
-translation=Imposta citazione
+translation=Attiva/disattiva le citazioni
 
 [setting.mobile-toolbar.option-inline-math]
 original=Toggle inline math
-translation=Imposta Math in linea
+translation=Attiva/disattiva le formule matematiche nel testo
 
 [setting.mobile-toolbar.option-math-block]
 original=Toggle math block
-translation=Imposta blocco Math
+translation=Attiva/disattiva i blocchi delle formule matematiche
 
 [setting.mobile-toolbar.option-markdown-link]
 original=Add Markdown link
-translation=Aggiungi collegamento Markdown
+translation=Inserisci un collegamento Markdown
 
 [setting.mobile-toolbar.option-bullet-list]
 original=Toggle bullet list
-translation=Imposta elenco puntato
+translation=Attiva/disattiva gli elenchi puntati
 
 [setting.mobile-toolbar.option-numbered-list]
 original=Toggle numbered list
-translation=Imposta elenco numerato
+translation=Attiva/disattiva gli elenchi numerati
 
 [setting.mobile-toolbar.option-indent-list]
 original=Indent list item
-translation=Aumenta rientro elenco
+translation=Aumenta il rientro negli elenchi
 
 [setting.mobile-toolbar.option-unindent-list]
 original=Unindent list item
-translation=Riduci rientro elenco
+translation=Riduci il rientro negli elenchi
 
 [setting.mobile-toolbar.option-undo]
 original=Undo
@@ -1856,19 +1856,19 @@ translation=Ripeti
 
 [setting.mobile-toolbar.option-move-caret-up]
 original=Move caret up
-translation=Sposta cursore in alto
+translation=Sposta il cursore in alto
 
 [setting.mobile-toolbar.option-move-caret-down]
 original=Move caret down
-translation=Sposta cursore in basso
+translation=Sposta il cursore in basso
 
 [setting.mobile-toolbar.option-move-caret-left]
 original=Move caret left
-translation=Sposta cursore a sinistra
+translation=Sposta il cursore a sinistra
 
 [setting.mobile-toolbar.option-move-caret-right]
 original=Move caret right
-translation=Sposta cursore a destra
+translation=Sposta il cursore a destra
 
 [setting.mobile-toolbar.option-first-line]
 original=Go to first line
@@ -1876,15 +1876,15 @@ translation=Vai alla prima riga
 
 [setting.mobile-toolbar.option-last-line]
 original=Go to last line
-translation=Vai all'ultima riga
+translation=Vai all’ultima riga
 
 [setting.mobile-toolbar.option-toggle-keyboard]
 original=Toggle keyboard
-translation=Attiva/disattiva tastiera
+translation=Mostra/nascondi la tastiera
 
 [setting.mobile-toolbar.option-configure-toolbar]
 original=Configure mobile toolbar
-translation=Configura strumenti mobile
+translation=Configura la barra degli strumenti
 
 [setting.mobile-toolbar.option-added-options]
 original=Added options
@@ -1892,23 +1892,23 @@ translation=Opzioni aggiunte
 
 [setting.mobile-toolbar.option-more-toolbar-options]
 original=More toolbar options
-translation=Altre opzioni
+translation=Altre opzioni della barra degli strumenti
 
 [setting.mobile-toolbar.option-attach]
 original=Insert attachment
-translation=Inserisci allegato
+translation=Inserisci un allegato
 
 [editor.search.placeholder-find]
 original=Find...
-translation=Trova
+translation=Trova...
 
 [editor.search.placeholder-replace]
 original=Replace...
-translation=Sostituisci
+translation=Sostituisci...
 
 [editor.search.label-exit-search]
 original=Exit search
-translation=Chiudi ricerca
+translation=Chiudi la ricerca
 
 [editor.search.label-next]
 original=Next
@@ -1936,7 +1936,7 @@ translation=Digita #
 
 [editor.link-suggestion.label-link-heading]
 original=to link heading
-translation=per collegare un titolo
+translation=per collegare un’intestazione
 
 [editor.link-suggestion.label-type-block]
 original=Type ^
@@ -1944,7 +1944,7 @@ translation=Digita ^
 
 [editor.link-suggestion.label-link-block]
 original=to link blocks
-translation=per collegare un blocco
+translation=per collegare dei blocchi
 
 [editor.link-suggestion.label-type-pipe]
 original=Type |
@@ -1952,15 +1952,15 @@ translation=Digita |
 
 [editor.link-suggestion.label-change-display-text]
 original=to change display text
-translation=per cambiare il testo mostrato
+translation=per cambiare il testo visualizzato
 
 [editor.link-suggestion.label-no-alias]
 original=Display text
-translation=Mostra testo
+translation=Testo visualizzato
 
 [editor.link-suggestion.label-no-heading]
 original=Heading
-translation=Titolo
+translation=Intestazione
 
 [editor.link-suggestion.label-no-match-found]
 original=No match found
@@ -1988,35 +1988,35 @@ translation=Aggiungi al dizionario
 
 [editor.menu.edit-link]
 original=Edit link
-translation=Modifica collegamento
+translation=Modifica il collegamento
 
 [editor.menu.edit-tag]
 original=Edit tag
-translation=Modifica etichetta
+translation=Modifica l’etichetta
 
 [editor.menu.label-edit-block]
 original=Edit this block
-translation=Modifica blocco
+translation=Modifica il blocco
 
 [editor.menu.label-delete-footref-and-note]
 original=Delete footnote and reference
-translation=Elimina nota a piè di pagina e riferimento
+translation=Elimina la nota a piè di pagina e il riferimento
 
 [editor.menu.reset-size]
 original=Reset size
-translation=Ripristina dimensione
+translation=Ripristina le dimensioni
 
 [editor.menu.delete-image]
 original=Delete image
-translation=Elimina immagine
+translation=Elimina l’immagine
 
 [editor.heading-suggestion.label-no-heading]
 original=No heading
-translation=Nessun titolo
+translation=Nessuna intestazione
 
 [editor.heading-suggestion.label-heading-level]
 original=Heading {{level}}
-translation=Titolo {{level}}
+translation=Intestazione {{level}}
 
 [editor.print-modal.title]
 original=Export to PDF
@@ -2024,15 +2024,15 @@ translation=Esporta in PDF
 
 [editor.print-modal.caption]
 original=Export “{{filename}}” to PDF with the settings below.
-translation=Esporta "{{filename}}" in PDF con le seguenti impostazioni.
+translation=Esporta "{{filename}}" in PDF con le impostazioni seguenti.
 
 [editor.print-modal.setting-page-size]
 original=Page size
-translation=Dimensione pagina
+translation=Formato della pagina
 
 [editor.print-modal.setting-include-file-name]
 original=Include file name as title
-translation=Includi nome file come titolo
+translation=Includi il nome del file come titolo
 
 [editor.print-modal.setting-landscape]
 original=Landscape
@@ -2040,15 +2040,15 @@ translation=Orizzontale
 
 [editor.print-modal.setting-margin]
 original=Margin
-translation=Margine
+translation=Margini
 
 [editor.print-modal.setting-margin-default]
 original=Default
-translation=Normale
+translation=Predefiniti
 
 [editor.print-modal.setting-margin-minimal]
 original=Minimal
-translation=Stretto
+translation=Stretti
 
 [editor.print-modal.setting-margin-none]
 original=None
@@ -2056,7 +2056,7 @@ translation=Nessuno
 
 [editor.print-modal.setting-downscale-percent]
 original=Downscale percent
-translation=Riduzione in percentuale
+translation=Percentuale di riduzione
 
 [editor.print-modal.button-export-to-pdf]
 original=Export to PDF
@@ -2064,15 +2064,15 @@ translation=Esporta in PDF
 
 [editor.link-popover.tooltip-follow-link]
 original=Follow link
-translation=Segui collegamento
+translation=Segui il collegamento
 
 [editor.link-popover.tooltip-open-link]
 original=Open link
-translation=Apri collegamento
+translation=Apri il collegamento
 
 [editor.link-popover.tooltip-search-tag]
 original=Search tag
-translation=Cerca etichetta
+translation=Cerca l’etichetta
 
 [interface.embed-cannot-find]
 original=Cannot find:
@@ -2084,39 +2084,39 @@ translation=Impossibile trovare “{{subpath}}” in {{file}}
 
 [interface.embed-open-in-default-app-tooltip]
 original=Open in default app
-translation=Apre con l'app predefinita
+translation=Apri con l’applicazione predefinita
 
 [interface.empty-sidebar]
 original=The sidebar is empty, try dragging a tab here.
-translation=La barra laterale è vuota, prova a trascinare un pannello qui.
+translation=La barra laterale è vuota; prova a trascinare qui una scheda.
 
 [interface.sidebar-expand]
 original=Expand
-translation=Mostra
+translation=Espandi
 
 [interface.sidebar-collapse]
 original=Collapse
-translation=Nascondi
+translation=Comprimi
 
 [interface.msg-fail-to-save-file]
 original=Failed to save file “{{filepath}}”. {{message}}. Make a backup of the contents of this file now to avoid losing data.
-translation=Impossibile salvare "{{filepath}}". {{message}}.
+translation=Salvataggio del file “{{filepath}}” non riuscito. {{message}}. Crea subito una copia di questo file per evitare di perdere i dati.
 
 [interface.msg-failed-to-load-plugin]
 original=Failed to load plugin “{{plugin}}”
-translation=Impossibile caricare il plugin “{{plugin}}”
+translation=Caricamento dell’estensione “{{plugin}}” non riuscito
 
 [interface.msg-plugin-error]
 original=Plugin “{{plugin}}” encountered an error while loading
-translation=Errore durante il caricamento del plugin “{{plugin}}”
+translation=Errore durante il caricamento dell’estensione “{{plugin}}”
 
 [interface.msg-failed-to-load-file]
 original=Failed to open “{{filepath}}”
-translation=Impossibile aprire “{{filepath}}”
+translation=Apertura del file “{{filepath}}” non riuscita
 
 [interface.msg-failed-to-open-href]
 original=Cannot open location “{{href}}”
-translation=Impossibile aprire “{{href}}”
+translation=Apertura del percorso “{{href}}” non riuscita
 
 [interface.no-file]
 original=No file
@@ -2124,15 +2124,15 @@ translation=Nessun file
 
 [interface.msg-file-changed]
 original=“{{file}}” has been modified externally, merging changes automatically.
-translation="{{file}}" è stato modificato esternamente, unione automatica delle modifiche.
+translation=“{{file}}” è stato modificato esternamente; unione delle modifiche in corso.
 
 [interface.manage-vaults]
 original=Manage vaults...
-translation=Gestisci vault...
+translation=Gestisci gli archivi...
 
 [interface.help]
 original=Help
-translation=Aiuto
+translation=Guida
 
 [interface.settings]
 original=Settings
@@ -2144,27 +2144,27 @@ translation=Trascina per riordinare
 
 [interface.msg-switched-to-read]
 original=Switched default view mode to reading view.
-translation=Modalità Lettura impostata come predefinita.
+translation=Modalità di visualizzazione predefinita impostata su Lettura.
 
 [interface.msg-switched-to-edit]
 original=Switched default view mode to editing view.
-translation=Modalità Modifica impostata come predefinita.
+translation=Modalità di visualizzazione predefinita impostata su Modifica.
 
 [interface.msg-upgrade-installer]
 original=To use this feature, please re-install with latest installer available from our website.
-translation=Per usare questa funzionalità, reinstalla con il file d'installazione più recente disponibile sul nostro sito.
+translation=Per usare questa funzionalità, reinstalla l’applicazione con il programma di installazione più recente disponibile sul nostro sito.
 
 [interface.msg-slow-boot]
 original=Slow startup time detected.
-translation=Rilevato tempo di avvio lento.
+translation=Rilevato un avvio lento.
 
 [interface.msg-desktop-only-feature]
 original=This feature is only available in the desktop app.
-translation=Questa funzionalità è disponibile solo nell'app desktop.
+translation=Questa funzionalità è disponibile solo nell’applicazione per la scrivania.
 
 [interface.tooltip-restore-default-settings]
 original=Restore default settings
-translation=Ripristina impostazioni predefinite
+translation=Ripristina le impostazioni predefinite
 
 [interface.label-copy]
 original=Copy to clipboard
@@ -2176,15 +2176,15 @@ translation=Copia
 
 [interface.copied_generic]
 original=Copied to your clipboard
-translation=Copiato negli appunti
+translation=Copiato negli Appunti
 
 [interface.copied]
 original={{item}} copied to your clipboard
-translation={{item}} copiato negli appunti
+translation={{item}} copiato negli Appunti
 
 [interface.copy_failed]
 original=Unable to copy to your clipboard
-translation=Impossibile copiare negli appunti
+translation=Impossibile copiare negli Appunti
 
 [interface.prompt-filter]
 original=Filter...
@@ -2192,15 +2192,15 @@ translation=Filtra...
 
 [interface.msg-codeblock-render-error]
 original=Encountered an error while rendering code block.
-translation=Si è verificato un errore durante il rendering del blocco di codice.
+translation=Si è verificato un errore durante la renderizzazione del blocco di codice.
 
 [interface.msg-open-file-through-uri]
 original=Opened file “{{path}}”
-translation=File "{{path}}" aperto
+translation=File “{{path}}” aperto
 
 [interface.msg-file-not-found-through-uri]
 original=File “{{name}}” not found.
-translation=File "{{name}}" non trovato.
+translation=File “{{name}}” non trovato.
 
 [interface.msg-invalid-uri-action]
 original=Unrecognized URI action: {{action}}
@@ -2212,31 +2212,31 @@ translation=Elimina
 
 [interface.msg-indexing]
 original=Indexing vault...
-translation=Obsidian sta indicizzando il vault...\nDovrebbe accadere solo una volta.\nAlcune funzioni potrebbero non essere disponibili finché l'operazione non sarà completata.
+translation=Indicizzazione dell’archivio in corso...
 
 [interface.msg-indexing-desc]
 original=Some functionality may not be available until this is complete.
-translation=Alcune funzionalità potrebbero non essere disponibili finché questa operazione non sarà completata.
+translation=Alcune funzionalità potrebbero non essere disponibili fino al termine dell’operazione.
 
 [interface.msg-indexing-complete]
 original=Indexing complete.
-translation=Indicizzazione completa.
+translation=Indicizzazione completata.
 
 [interface.msg-sandbox-vault]
 original=This is a sandbox vault.\nChanges you make in this vault will be lost.
-translation=Questo è un vault sandbox.\nLe modifiche apportate a questo vault andranno perse.
+translation=Questo è un archivio sandbox.\nLe modifiche apportate andranno perse.
 
 [interface.msg-indexed-db-not-supported]
 original=IndexedDB is required for this feature, but it is currently disabled.
-translation=IndexedDB è necessario per questa funzionalità, ma attualmente è disabilitato.
+translation=IndexedDB è necessario per questa funzionalità, ma è disabilitato.
 
 [interface.msg-indexed-db-i-o-s]
 original=If you are using iOS in Lockdown Mode, please exclude Obsidian from the "Configure Web Browsing" setting of Lockdown Mode.
-translation=Se stai usando iOS in Modalità isolamento, escludi Obsidian dalle impostazioni "Configura navigazione web" della Modalità isolamento.
+translation=Su iOS in Modalità isolamento, escludi Obsidian dall’impostazione "Configura navigazione web".
 
 [interface.label-enter-to-create]
 original=Enter to create
-translation=Invio per creare
+translation=Premi Invio per creare
 
 [interface.label-update-available]
 original=Update Available
@@ -2252,7 +2252,7 @@ translation=Scopri di più
 
 [interface.button-not-now]
 original=Not now
-translation=Non adesso
+translation=Non ora
 
 [interface.button-add]
 original=Add
@@ -2268,11 +2268,11 @@ translation=Nuova scheda
 
 [interface.option-hide-ribbon]
 original=Hide ribbon
-translation=Nascondi barra multifunzione
+translation=Nascondi la barra multifunzione
 
 [interface.msg-tab-busy]
 original=This tab is currently busy, please try again later
-translation=Questa scheda è occupata, riprova più tardi
+translation=Questa scheda è occupata; riprova più tardi
 
 [interface.formatting.label-formatting]
 original=Format
@@ -2288,11 +2288,11 @@ translation=Inserisci
 
 [interface.formatting.insert-link]
 original=Add link
-translation=Aggiungi collegamento
+translation=Inserisci un collegamento
 
 [interface.formatting.insert-external-link]
 original=Add external link
-translation=Aggiungi link
+translation=Inserisci un collegamento esterno
 
 [interface.formatting.insert-callout]
 original=Callout
@@ -4700,7 +4700,7 @@ translation=Copia risultati
 
 [plugins.search.msg-successfully-copied]
 original=Results copied to your clipboard.
-translation=Risultati copiati negli appunti.
+translation=Risultati copiati negli Appunti.
 
 [plugins.search.option-show-path]
 original=Show path
@@ -5044,7 +5044,7 @@ translation=Apri impostazioni grafo
 
 [plugins.graph-view.msg-screenshot-copied]
 original=Screenshot copied to the clipboard.
-translation=Schermata copiata negli appunti.
+translation=Schermata copiata negli Appunti.
 
 [plugins.graph-view.label-groups]
 original=Groups
@@ -8956,7 +8956,7 @@ translation=Inserisci nuova Base
 
 [plugins.bases.command-copy-table]
 original=Copy table to clipboard
-translation=Copia tabella negli appunti
+translation=Copia tabella negli Appunti
 
 [plugins.bases.command-change-view]
 original=Switch view...
