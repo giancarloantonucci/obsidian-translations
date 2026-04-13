@@ -872,7 +872,7 @@ translation={{count}} temi da aggiornare.
 
 [setting.appearance.button-check-for-updates]
 original=Check for updates
-translation=Cerca aggiornamenti
+translation=Verifica aggiornamenti
 
 [setting.appearance.button-view-updates]
 original=View updates
@@ -900,7 +900,7 @@ translation=Tasti di scelta rapida
 
 [setting.hotkeys.option-search]
 original=Search hotkeys
-translation=Cerca tasti di scelta rapida
+translation=Cerca un tasto di scelta rapida
 
 [setting.hotkeys.option-search-desc]
 original=Showing {{count}} hotkey. 
@@ -964,7 +964,7 @@ translation=Questo tasto di scelta rapida è in conflitto con {{count}} altri co
 
 [setting.hotkeys.label-blank-hotkey]
 original=Blank
-translation=Nessuno
+translation=Vuoto
 
 [setting.keychain.name]
 original=Keychain
@@ -1004,7 +1004,7 @@ translation=nome-credenziale
 
 [setting.keychain.option-secret-id-description]
 original=Lowercase letters, numbers and dashes only.
-translation=Usa solo lettere minuscole, numeri e trattini.
+translation=Sono ammessi solo lettere minuscole, numeri e trattini.
 
 [setting.keychain.option-secret-value-description]
 original=Enter your secret.
@@ -1016,11 +1016,11 @@ translation=Mai utilizzata
 
 [setting.keychain.msg-error-update-secret]
 original=Failed to update secret.
-translation=Impossibile aggiornare la credenziale.
+translation=Aggiornamento della credenziale non riuscito.
 
 [setting.keychain.msg-error-add-secret]
 original=Failed to add secret.
-translation=Impossibile aggiungere la credenziale.
+translation=Aggiunta della credenziale non riuscita.
 
 [setting.keychain.msg-error-secret-id-exists]
 original=A secret with this ID already exists.
@@ -1032,11 +1032,11 @@ translation=Il valore della credenziale non può essere vuoto.
 
 [setting.keychain.msg-error-secret-id-invalid]
 original=Secret ID is invalid. Use only lowercase letters, numbers and dashes. 64 characters max.
-translation=L'ID della credenziale non è valido. Usa solo lettere minuscole, numeri e trattini. Massimo 64 caratteri.
+translation=L’ID della credenziale non è valido. Usa solo lettere minuscole, numeri e trattini. Massimo 64 caratteri.
 
 [setting.keychain.keychain-empty-state]
 original=No secrets have been added. Secrets are used to store information like API keys and passwords that plugins can use.
-translation=Non hai ancora aggiunto alcuna credenziale. Le credenziali vengono usate per memorizzare informazioni come le chiavi API e le chiavi d’accesso utilizzabili dalle estensioni.
+translation=Non hai ancora aggiunto alcuna credenziale. Le credenziali servono a memorizzare informazioni come le chiavi API e le chiavi d’accesso utilizzabili dalle estensioni.
 
 [setting.keychain.label-select-secret]
 original=Select secret
@@ -1056,7 +1056,7 @@ translation=Collega...
 
 [setting.keychain.msg-secrets-not-encrypted]
 original=Secrets are stored without encryption because no secret store is available on this system.
-translation=Le credenziali vengono archiviate senza crittografia perché su questo sistema non è disponibile alcun archivio di credenziali.
+translation=Le credenziali verranno archiviate in chiaro perché il sistema non dispone di un archivio delle credenziali.
 
 [setting.keychain.msg-secrets-not-encrypted-short]
 original=Secrets are not encrypted
@@ -1072,7 +1072,7 @@ translation=La crittografia non è disponibile
 
 [setting.keychain.msg-encryption-provided-by-o-s]
 original=Encryption is provided by your operating system's secret store. Without a secret store, your secrets will be stored without encryption.
-translation=La crittografia è fornita dall’archivio delle credenziali del tuo sistema operativo. Senza un archivio delle credenziali, le credenziali verranno archiviate senza crittografia.
+translation=La crittografia è affidata all’archivio delle credenziali del tuo sistema operativo. Se non è disponibile, le credenziali verranno archiviate in chiaro.
 
 [setting.keychain.msg-linux-secret-stores]
 original=On Linux, supported secret stores include:
@@ -1120,7 +1120,7 @@ translation=Leggi il registro delle modifiche.
 
 [setting.about.label-manual-update-required]
 original=To support the latest features and to receive the latest security patches, Obsidian needs a major installer update. You need to manually download and reinstall Obsidian.
-translation=Per supportare le nuove funzionalità e ricevere gli ultimi aggiornamenti di sicurezza, è necessario un importante aggiornamento del programma d’installazione. Scarica e reinstalla manualmente Obsidian.
+translation=Per supportare le nuove funzionalità e ricevere gli ultimi aggiornamenti di sicurezza, è necessario un importante aggiornamento del programma d’installazione. Scarica Obsidian e reinstallalo manualmente.
 
 [setting.about.label-new-version-ready]
 original=A new version is ready to be installed. 
@@ -1136,7 +1136,7 @@ translation=Riavvia
 
 [setting.about.button-check-for-updates]
 original=Check for updates
-translation=Cerca aggiornamenti
+translation=Verifica aggiornamenti
 
 [setting.about.option-auto-update]
 original=Automatic updates
@@ -1144,7 +1144,7 @@ translation=Aggiornamenti automatici
 
 [setting.about.option-auto-update-description]
 original=Turn this off to prevent the app from checking for updates.
-translation=Disattiva questa opzione per impedire all’applicazione di cercare gli aggiornamenti.
+translation=Disattiva questa opzione per impedire all’applicazione di verificare gli aggiornamenti.
 
 [setting.about.option-check-slow-startup]
 original=Notify if startup takes longer than expected
@@ -1168,7 +1168,7 @@ translation=Consente di interagire con Obsidian dalla riga di comando.
 
 [setting.about.option-register-path]
 original=Set up CLI to work in the terminal
-translation=Configura la CLI per il terminale
+translation=Configura l’interfaccia a riga di comando per il terminale
 
 [setting.about.option-register-path-description]
 original=Register "obsidian" in PATH to enable accessing the "obsidian" command anywhere from your terminal.
@@ -1304,7 +1304,7 @@ translation=Licenza commerciale
 
 [setting.account.option-commercial-license-desc]
 original=Help keep Obsidian 100% user-supported.
-translation=Contribuisci a mantenere Obsidian finanziata al 100% dagli utenti.
+translation=Contribuisci a mantenere Obsidian finanziata interamente dagli utenti.
 
 [setting.account.button-purchase]
 original=Purchase
@@ -1364,11 +1364,11 @@ translation=La chiave d’accesso non può essere vuota.
 
 [setting.account.message-login-failed]
 original=Login failed, please double check your email and password.
-translation=Accesso non riuscito, verifica i dati e riprova.
+translation=Accesso non riuscito. Verifica i dati e riprova.
 
 [setting.account.message-signup-failed]
 original=Failed to sign up
-translation=Impossibile registrarsi
+translation=Registrazione non riuscita
 
 [setting.account.label-no-account]
 original=Don't have an account? 
@@ -1380,15 +1380,15 @@ translation=Iscriviti ora
 
 [setting.account.label-mfa-code]
 original=6-digit 2FA code
-translation=Codice a 6 cifre per l'autenticazione a due fattori
+translation=Codice a 6 cifre per l'autenticazione a due fattori (2FA)
 
 [setting.account.mfa-wrong-format]
 original=The 2FA authenticator code must be 6 digits.
-translation=Il codice per l'autenticazione a due fattori deve essere di 6 cifre.
+translation=Il codice 2FA deve essere di 6 cifre.
 
 [setting.account.mfa-verification-failed]
 original=2FA code is incorrect, please double check your authenticator app.
-translation=Il codice per l'autenticazione a due fattori è errato, verifica l’applicazione di autenticazione.
+translation=Il codice 2FA è errato. Verifica l’applicazione di autenticazione.
 
 [setting.core-plugin.plugin-list]
 original=Plugin list
@@ -1404,7 +1404,7 @@ translation=Filtra le estensioni per nome o descrizione.
 
 [setting.core-plugin.placeholder-search-plugin]
 original=Search plugins...
-translation=Cerca estensioni...
+translation=Cerca un’estensione...
 
 [setting.third-party-plugin.name]
 original=Community plugins
@@ -1424,11 +1424,11 @@ translation=Attiva e ricarica
 
 [setting.third-party-plugin.option-automatic-update-check]
 original=Automatically check for plugin updates
-translation=Controlla automaticamente gli aggiornamenti delle estensioni
+translation=Verifica automatica degli aggiornamenti
 
 [setting.third-party-plugin.option-automatic-update-check-desc]
 original=Periodically check for plugin updates.
-translation=Controlla periodicamente gli aggiornamenti delle estensioni.
+translation=Controlla periodicamente se ci sono aggiornamenti per le estensioni.
 
 [setting.third-party-plugin.option-browse-community-plugins]
 original=Community plugins
@@ -1448,11 +1448,11 @@ translation=Esci dalla modalità limitata
 
 [setting.third-party-plugin.label-exit-restricted-mode-description-1]
 original=Community plugins, like any other software you install, could potentially cause data integrity and security issues.
-translation=Le estensioni della comunità, come qualsiasi altro programma installato, potrebbero causare problemi di integrità e sicurezza dei dati.
+translation=Le estensioni della comunità, come qualsiasi altro programma installato, potrebbero causare problemi di integrità dei dati e di sicurezza.
 
 [setting.third-party-plugin.label-exit-restricted-mode-description-2]
 original=Plugin security is important to us. Here's what we do:
-translation=La sicurezza delle estensioni è una priorità. Ecco le nostre procedure di controllo:
+translation=La sicurezza delle estensioni è una nostra priorità. Ecco le nostre procedure di controllo:
 
 [setting.third-party-plugin.label-exit-restricted-mode-description-3]
 original=Despite our efforts, there is still a small chance that a community plugin might misbehave.
@@ -1504,7 +1504,7 @@ translation=Attiva le estensioni della comunità
 
 [setting.third-party-plugin.label-trust-author]
 original=Do you trust the author of this vault?
-translation=Ti fidi dell’autore di questo archivio?
+translation=Ritieni attendibile l’autore di questo archivio?
 
 [setting.third-party-plugin.label-trust-author-description-1]
 original=You're opening this vault for the first time, and it comes with some plugins.
@@ -1516,11 +1516,11 @@ translation=Se hai ricevuto questo archivio da altre persone, tieni presente che
 
 [setting.third-party-plugin.label-trust-author-description-3]
 original=If you do not fully trust the author of this vault, we recommend staying in Restricted Mode, so the plugins in this vault do not run.
-translation=Se non ti fidi completamente dell’autore di questo archivio, ti consigliamo di restare in modalità limitata per impedire l’esecuzione delle estensioni.
+translation=Se non ritieni l’autore di questo archivio completamente attendibile, ti consigliamo di restare in modalità limitata per impedire l’esecuzione delle estensioni.
 
 [setting.third-party-plugin.button-enable-plugins]
 original=Trust author and enable plugins
-translation=Fidati dell’autore e attiva le estensioni
+translation=Ritieni l’autore attendibile e attiva le estensioni
 
 [setting.third-party-plugin.button-dont-trust-author]
 original=Browse vault in Restricted Mode
@@ -1532,7 +1532,7 @@ translation=Cerca tra le estensioni della comunità...
 
 [setting.third-party-plugin.msg-failed-load-plugins]
 original=Failed to load community plugins.
-translation=Impossibile caricare le estensioni della comunità.
+translation=Caricamento delle estensioni della comunità non riuscito.
 
 [setting.third-party-plugin.label-installed]
 original=Installed
@@ -1568,7 +1568,7 @@ translation=Nessun file recente trovato. Digita per cercare...
 
 [setting.third-party-plugin.msg-failed-to-load-manifest]
 original=Failed to load plugin manifest.
-translation=Impossibile caricare il manifesto (il file dei metadati) dell’estensione.
+translation=Caricamento del manifesto dell’estensione non riuscito.
 
 [setting.third-party-plugin.label-version]
 original=Version: {{version}}
@@ -1592,7 +1592,7 @@ translation=Ultimo aggiornamento:
 
 [setting.third-party-plugin.tooltip-view-last-update]
 original=View the latest update
-translation=Visualizza ultimo aggiornamento
+translation=Visualizza l’ultimo aggiornamento
 
 [setting.third-party-plugin.label-unsupported]
 original=This plugin does not support your device.
@@ -1612,19 +1612,19 @@ translation=Installazione dell’estensione “{{name}}” in corso...
 
 [setting.third-party-plugin.msg-failed-to-install-plugin]
 original=Failed to install plugin “{{name}}”.
-translation=Impossibile installare l’estensione “{{name}}”.
+translation=Installazione dell’estensione “{{id}}” non riuscita.
 
 [setting.third-party-plugin.msg-successfully-installed-plugin]
 original=Successfully installed plugin “{{name}}”.
-translation=Estensione “{{name}}” installata.
+translation=Estensione “{{name}}” installata correttamente.
 
 [setting.third-party-plugin.msg-failed-to-uninstall-plugin]
 original=Failed to uninstall plugin “{{id}}”.
-translation=Impossibile disinstallare l’estensione “{{id}}”.
+translation=Disinstallazione dell’estensione “{{id}}” non riuscita.
 
 [setting.third-party-plugin.msg-failed-to-disable-plugin]
 original=Failed to disable plugin “{{id}}”.
-translation=Impossibile disattivare l’estensione “{{id}}”.
+translation=Disattivazione dell’estensione “{{id}}” non riuscita.
 
 [setting.third-party-plugin.label-installed-plugins]
 original=Installed plugins
@@ -1656,7 +1656,7 @@ translation=Apri la cartella delle estensioni
 
 [setting.third-party-plugin.button-check-for-updates]
 original=Check for updates
-translation=Cerca aggiornamenti
+translation=Verifica aggiornamenti
 
 [setting.third-party-plugin.button-update-all-plugins]
 original=Update all
@@ -1668,7 +1668,7 @@ translation=Estensioni installate
 
 [setting.third-party-plugin.msg-checking-for-updates]
 original=Checking for updates...
-translation=Ricerca aggiornamenti in corso...
+translation=Ricerca degli aggiornamenti in corso...
 
 [setting.third-party-plugin.label-currently-installed]
 original=You currently have {{count}} plugin installed.
@@ -1716,15 +1716,15 @@ translation=Dona per sostenere {{name}}
 
 [setting.third-party-plugin.label-donate-modal-text1]
 original=Plugin developers are community volunteers who make amazing things out of passion. If you find this plugin useful, please consider funding its development.
-translation=Gli sviluppatori delle estensioni sono volontari della comunità che creano strumenti straordinari per passione. Se ritieni utile questa estensione, valuta di finanziarne lo sviluppo.
+translation=Gli sviluppatori delle estensioni sono volontari che creano strumenti straordinari per passione. Se ritieni utile questa estensione, valuta di finanziarne lo sviluppo.
 
 [setting.third-party-plugin.label-donate-modal-text2]
 original=100% of your contribution will go to the plugin developer; Obsidian does not take a cut. The funding platform they choose might charge a fee.
-translation=Il 100% del contributo andrà allo sviluppatore dell'estensione; Obsidian non trattiene alcuna percentuale. La piattaforma di pagamento scelta potrebbe applicare una commissione.
+translation=Il contributo andrà interamente allo sviluppatore; Obsidian non trattiene alcuna percentuale. La piattaforma di pagamento scelta potrebbe applicare una commissione.
 
 [setting.third-party-plugin.label-donate-modal-text3]
 original=Thanks for your generous support!
-translation=Grazie per il generoso sostegno!
+translation=Grazie per il sostegno!
 
 [setting.third-party-plugin.label-support-this-plugin]
 original=Support this plugin:
@@ -1740,7 +1740,7 @@ translation=Le più scaricate
 
 [setting.third-party-plugin.label-by-released]
 original=Recently released
-translation=Pubblicate di recente
+translation=Nuove uscite
 
 [setting.third-party-plugin.label-by-updated]
 original=Recently updated
@@ -1764,7 +1764,7 @@ translation=Configura l'azione rapida per dispositivi mobili
 
 [setting.mobile-toolbar.option-configure-quick-action-description]
 original=Configure which command to trigger when pulling down from the top. The current command is set to “{{command}}”.
-translation=Scegli quale comando attivare trascinando lo schermo verso il basso. Comando attuale: "{{command}}".
+translation=Configura quale comando attivare trascinando lo schermo verso il basso. Comando attuale: "{{command}}".
 
 [setting.mobile-toolbar.msg-missing-quick-action]
 original=Action not configured
@@ -1776,7 +1776,7 @@ translation=Configura
 
 [setting.mobile-toolbar.placeholder-select-quick-action]
 original=Select Quick Action...
-translation=Seleziona un'azione rapida...
+translation=Seleziona un’azione rapida...
 
 [setting.mobile-toolbar.quick-action-disabled]
 original=None
